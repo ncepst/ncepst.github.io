@@ -2,7 +2,7 @@
 GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
 Qiita : [https://qiita.com/Bencepst](https://qiita.com/Bencepst) 
 
-エクセルの自動化について、VBAよりもPythonが好きなので、  
+エクセル作業を自動化するのに、VBAよりもPythonが好きなので、  
 Pythonでエクセルグラフ作成を自動化する記事やコードを作成しました。
 
 ## 経歴
