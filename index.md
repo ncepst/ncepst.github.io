@@ -1,3 +1,3 @@
 2022～　光センサー・エンコーダーの開発
 
-GitHub: https://github.com/ncepst(https://github.com/ncepst)
+GitHub: [https://github.com/ncepst](https://github.com/ncepst)
