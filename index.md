@@ -2,6 +2,9 @@
 GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
 Qiita : [https://qiita.com/Bencepst](https://qiita.com/Bencepst) 
 
+エクセルの自動化について、VBAよりもPythonが好きなので、  
+Pythonでエクセルグラフ作成を自動化する記事やコードを作成しました。
+
 ## 経歴
 ～ 2022年　修士 (電子工学 / スピントロニクス・物理）  
 2022年 ～　光センサー・エンコーダーの開発エンジニア
