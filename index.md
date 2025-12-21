@@ -7,4 +7,5 @@ Qiita : [https://qiita.com/Bencepst](https://qiita.com/Bencepst)
 2022年～　光センサー・エンコーダーの開発エンジニア
 
 ## Contact
+ご連絡は下記メールにお願いします。
 E-mail: ncepst708@gmail.com
