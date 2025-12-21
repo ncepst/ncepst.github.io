@@ -9,3 +9,7 @@ Qiita : [https://qiita.com/Bencepst](https://qiita.com/Bencepst)
 ## Contact
 ご連絡は下記メールにお願いします。  
 E-mail: ncepst708@gmail.com
+
+## Collaboration
+電子回路や関連分野についての勉強や情報交換の仲間を募集しています。  
+ご興味のある方は Contact のメールまでご連絡ください。  
