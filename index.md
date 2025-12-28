@@ -18,7 +18,7 @@ matplotlib + openpyxl を用いた手法については既存の記事や文献�
 一方で、**xlwingsで Excel のネイティブなグラフの体裁まで整える**ことを目的とした情報は少なく、  
 同様の課題を持つ方の参考になればと考え、[PyExcelTools](https://github.com/ncepst/PyExcelTools) リポジトリを公開しました。
 
-## リンク
+### リンク
 GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
 Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
@@ -28,13 +28,14 @@ Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
 ## 自己紹介
 学生時代から物理学系の学習を好み、  
-社会人になってからは、電子回路など実務に直結する分野の勉強に取り組んでいます。  
-現在の目標は、電子回路の名著 Razavi の本を読破することです。  
+社会人になってからは電子回路など実務に直結する分野の勉強に取り組んでいます。  
+現在の目標は、電子回路の名著 Razavi の本を読破すること です。
 
-本業は回路設計ではなく、光学系の半導体デバイスの開発に携わっており、  
+本業は回路設計ではなく、光学系の半導体デバイスの開発に携わっており、
 光関連の理論やシミュレーション技術にも関心があります。  
 
-プログラミングは業務で Python、C#、VBAを使った経験があります。 
+プログラミングは業務で Python を中心に使用しており、
+既存の C# や VBA プログラムの改訂経験 もあります。
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
