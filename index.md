@@ -1,20 +1,24 @@
-## Links
-GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
-Qiita : [https://qiita.com/Bencepst](https://qiita.com/Bencepst) 
+## PyExcelTools について
 
-エクセル作業を自動化するのに、VBAよりもPythonが好きなので、  
-Pythonでエクセルグラフ作成を自動化する記事やコードを作成しました。
+Excel 作業を自動化するのに、VBAよりもPythonに馴染みがあり、  
+Python による Excel グラフ作成を自動化を目的とした記事やコードを作成しました。
 
-会社でエクセル自動化といえば、昔からあるVBAが主流で、「なぜPythonを使うのか」と聞かれることさえあります。  
-一方で、Pythonにもメリットがあり、見栄えの整ったエクセルグラフの出力までをPythonで完結させたいと考えていました。
+会社で Excel 自動化といえば、昔からある VBA が主流であり、  
+「なぜPythonを使うのか」と聞かれることもあります。  
+一方で、Pythonにもメリットがあり、  
+**見栄えの整ったエクセルグラフの出力までを Pythonで完結させたい**と考えていました。
 
-Pythonで手軽な自動化を実現するため、エクセルグラフの作成処理を関数化し、  
+Python で手軽な自動化を実現するため、 Excel グラフの作成処理を関数化し、  
 多量のグラフの体裁を一括で調整できる仕組みを目指しました。
 
-matplotlib + openpyxl を用いた手法については既存の記事や文献が多くあるので、  
-私もmatplotlibの画像グラフをopenpyxlでエクセルに貼り付けるPythonコードを作成し、業務で活用しているのですが、  
-xlwingsでエクセルグラフの体裁まで整えることを目的とした情報は少なく、  
-同様の課題を持つ方の参考になればと考えて、本コードを公開しました。
+matplotlib + openpyxl を用いた手法については既存の記事や文献が多くあり、    
+私自身もmatplotlibの画像グラフをopenpyxlで Excel に貼り付ける Python コードを作成し、業務で活用しています。  
+一方で、**xlwingsで Excel のネイティブなグラフの体裁まで整える**ことを目的とした情報は少なく、  
+同様の課題を持つ方の参考になればと考え、[PyExcelTools](https://github.com/ncepst/PyExcelTools) リポジトリを公開しました。
+
+## Link
+GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
+Qiita : [https://qiita.com/Bencepst](https://qiita.com/Bencepst)
 
 ## Contact
 ご連絡は下記メールにお願いします。  
