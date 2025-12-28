@@ -1,26 +1,26 @@
 ## PyExcelTools について
 
 ### 概要
-Excel 作業を自動化するのに、VBAよりもPythonに馴染みがあり、  
+Excel 作業を自動化するのに、VBA よりも Python に馴染みがあり、  
 Python による Excel グラフ作成の自動化を目的とした記事やコードを作成しました。
 
 会社で Excel 自動化といえば、昔からある VBA が主流であり、  
 「なぜPythonを使うのか」と聞かれることもあります。  
-一方で、Pythonにもメリットがあり、  
-**見栄えの整った Excel グラフの出力までを Pythonで完結させたい**と考えていました。
+しかし、Python にはデータ分析や処理の高速化でメリットがあり、  
+**見栄えの整った Excel グラフの出力までを Python で完結させたい**と考えていました。
 
 Python で手軽な自動化を実現するため、 Excel グラフの作成処理を関数化し、  
 多量のグラフの体裁を一括に調整できる仕組みを目指しました。
 
 ### 特徴
 matplotlib + openpyxl を用いた手法については既存の記事や文献が多くあり、    
-私自身もmatplotlibの画像グラフをopenpyxlで Excel に貼り付ける Python コードを作成し、業務で活用しています。  
+私自身も matplotlib の画像グラフを openpyxl で Excel に貼り付ける Python コードを作成し、業務で活用しています。  
 一方で、**xlwingsで Excel のネイティブなグラフの体裁まで整える**ことを目的とした情報は少なく、  
 同様の課題を持つ方の参考になればと考え、[PyExcelTools](https://github.com/ncepst/PyExcelTools) リポジトリを公開しました。
 
 ## リンク
-GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
-Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
+- GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
+- Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
 ## 経歴
 ～ 2022年：　修士 (電子工学 / スピントロニクス・物理）  
@@ -29,9 +29,9 @@ Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 ## 自己紹介
 学生時代から物理学系の学習を好み、  
 社会人になってからは電子回路や光学系デバイスなど、実務に直結する分野の学習に取り組んでいます。  
-現在は、電子回路の名著 Razavi の本を読破することが目標です。
+現在は、電子回路の名著 Razavi の CMOS 回路の本を読破することが目標です。
 
-本業は回路設計ではなく、光学系の半導体デバイスの開発に携わっており、  
+本業は、光学系の半導体デバイスの開発に携わっており、  
 光関連の理論やシミュレーション技術にも関心があります。  
 
 プログラミングは業務で Python を中心に活用しており、  
