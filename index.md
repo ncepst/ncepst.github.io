@@ -18,7 +18,7 @@ matplotlib + openpyxl を用いた手法については既存の記事や文献�
 
 ## Link
 GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
-Qiita : [https://qiita.com/Bencepst](https://qiita.com/Bencepst)
+Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
 ## Contact
 ご連絡は下記メールにお願いします。  
