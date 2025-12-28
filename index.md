@@ -18,7 +18,7 @@ matplotlib + openpyxl を用いた手法については既存の記事や文献�
 一方で、**xlwingsで Excel のネイティブなグラフの体裁まで整える**ことを目的とした情報は少なく、  
 同様の課題を持つ方の参考になればと考え、[PyExcelTools](https://github.com/ncepst/PyExcelTools) リポジトリを公開しました。
 
-### リンク
+## リンク
 GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
 Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
