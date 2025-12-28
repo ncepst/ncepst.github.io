@@ -35,7 +35,7 @@ Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 光関連の理論やシミュレーション技術にも関心があります。  
 
 プログラミングは業務で Python を中心に使用しており、  
-その他に、Visual C#、VBA のプログラム改訂も経験しています。
+その他に Visual C# や VBA の既存プログラムの改訂も経験しています。
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
