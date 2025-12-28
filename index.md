@@ -1,12 +1,12 @@
 ## PyExcelTools について
 
 Excel 作業を自動化するのに、VBAよりもPythonに馴染みがあり、  
-Python による Excel グラフ作成を自動化を目的とした記事やコードを作成しました。
+Python による Excel グラフ作成の自動化を目的とした記事やコードを作成しました。
 
 会社で Excel 自動化といえば、昔からある VBA が主流であり、  
 「なぜPythonを使うのか」と聞かれることもあります。  
 一方で、Pythonにもメリットがあり、  
-**見栄えの整ったエクセルグラフの出力までを Pythonで完結させたい**と考えていました。
+**見栄えの整った Excel グラフの出力までを Pythonで完結させたい**と考えていました。
 
 Python で手軽な自動化を実現するため、 Excel グラフの作成処理を関数化し、  
 多量のグラフの体裁を一括で調整できる仕組みを目指しました。
@@ -16,7 +16,7 @@ matplotlib + openpyxl を用いた手法については既存の記事や文献�
 一方で、**xlwingsで Excel のネイティブなグラフの体裁まで整える**ことを目的とした情報は少なく、  
 同様の課題を持つ方の参考になればと考え、[PyExcelTools](https://github.com/ncepst/PyExcelTools) リポジトリを公開しました。
 
-## Link
+## Links
 GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
 Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
