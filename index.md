@@ -22,7 +22,7 @@ Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
 ## Contact
 ご連絡は下記メールにお願いします。  
-E-mail: ncepst708(at)gmail.com
+E-mail: ncepst708 [at] gmail.com
 
 ## 経歴
 ～ 2022年　修士 (電子工学 / スピントロニクス・物理）  
