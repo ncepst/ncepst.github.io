@@ -27,7 +27,8 @@ matplotlib + openpyxl を用いた手法については既存の記事や文献�
 2022年 ～：　光センサー・光エンコーダーの開発エンジニア
 
 ## 自己紹介
-https://github.com/ncepst/private/blob/main/index.md
+非公開ページ
+[https://github.com/ncepst/private/blob/main/index.md](https://github.com/ncepst/private/blob/main/index.md)
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
