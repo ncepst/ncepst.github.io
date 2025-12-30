@@ -23,7 +23,7 @@ matplotlib + openpyxl を用いた手法については既存の記事や文献�
 - Qiita : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
 ## 経歴
-～ 2022年：　修士 (電子工学 / スピントロニクス・物理）  
+～ 2022年：　修士 (電子工学 / スピントロニクス）  
 2022年 ～：　光センサーの開発エンジニア
 
 ## 自己紹介
