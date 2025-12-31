@@ -1,6 +1,5 @@
 ## PyExcelTools について
 
-### 概要
 Excel 作業を自動化するのに、VBA よりも Python に馴染みがあり、  
 Python xlwings でエクセルグラフの体裁調整を自動化することを目的とした記事やコードを作成しました。  
 
