@@ -12,11 +12,7 @@ Python xlwings でエクセルグラフの体裁調整を自動化すること�
 Python で手軽な自動化を実現するため、 Excel グラフの作成処理を関数化し、  
 多量のグラフの体裁を一括に調整できる仕組みを目指しました。
 
-### 特徴
-matplotlib + openpyxl を用いた手法については既存の記事や文献が多くあり、    
-私自身も matplotlib の画像グラフを openpyxl で Excel に貼り付ける Python コードを作成し、業務で活用しています。  
-一方で、**xlwingsで Excel のネイティブなグラフの体裁まで整える**ことを目的とした情報は少なく、  
-エクセル作業の効率化に役立てるため、[PyExcelTools](https://github.com/ncepst/PyExcelTools) を作成しました。
+[PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
 ## リンク
 - GitHub: [https://github.com/ncepst](https://github.com/ncepst)  
