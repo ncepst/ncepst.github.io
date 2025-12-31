@@ -1,7 +1,4 @@
-## PyExcelTools について
-
-Excel 作業を自動化するのに、VBA よりも Python に馴染みがあり、  
-Python xlwings でエクセルグラフの体裁調整を自動化することを目的とした記事やコードを作成しました。  
+## PyExcelTools について  
 
 会社で Excel 自動化といえば、昔からある VBA が主流であり、  
 「なぜPythonを使うのか」と聞かれることもあります。  
@@ -9,7 +6,7 @@ Python xlwings でエクセルグラフの体裁調整を自動化すること�
 **見栄えの整った Excel グラフの出力までを Python で完結させたい**と考えていました。
 
 Python で手軽な自動化を実現するため、 Excel グラフの作成処理を関数化し、  
-多量のグラフの体裁を一括に調整できる仕組みを目指しました。
+繰り返し作成するエクセルグラフの体裁を一括に調整できる仕組みを目指しました。
 
 [PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
