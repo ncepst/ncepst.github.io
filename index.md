@@ -19,8 +19,9 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 2022年 ～：　光センサーの開発エンジニア
 
 ## 自己紹介
-非公開ページ
-[https://github.com/ncepst/private/blob/main/index.md](https://github.com/ncepst/private/blob/main/index.md)
+電子回路や光学デバイスについて勉強中です。
+
+[非公開ページ](https://github.com/ncepst/private/blob/main/index.md)
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
