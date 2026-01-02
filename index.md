@@ -11,8 +11,8 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 [PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
 ## リンク
-- GitHub アカウント: [https://github.com/ncepst](https://github.com/ncepst)  
-- Qiita アカウント : [https://qiita.com/ncepst](https://qiita.com/ncepst)
+- GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
+- Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
 ## 経歴
 ～ 2022年：　修士 (電子工学・スピントロニクス）  
