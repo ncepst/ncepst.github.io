@@ -1,4 +1,5 @@
-## PyExcelTools について  
+[PyExcelTools](https://github.com/ncepst/PyExcelTools)について
+---
 
 会社で Excel 自動化といえば、昔からある VBA が主流であり、  
 「なぜPythonを使うのか」と聞かれることもあります。  
@@ -7,8 +8,6 @@
 
 Python で手軽な自動化を実現するため、 Excel グラフの作成処理を関数化し、  
 多量に作成するエクセルグラフの体裁を一括に調整できる仕組みを目指しました。
-
-[PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
 ## リンク
 - GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
@@ -19,7 +18,8 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 2022年 ～：　光センサーの開発エンジニア
 
 ## 自己紹介
-電子回路や光学デバイスについて勉強しています。
+電子回路や光学デバイスについて勉強しています。  
+積読本も多いですが、専門書を読むのが好きです。  
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
