@@ -14,12 +14,20 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 - Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
 ## 経歴
-～ 2022年：　修士 (電子工学・スピントロニクス）  
-2022年 ～：　光センサーの開発エンジニア
+<table style="border-collapse: collapse; border: 1px solid transparent; background-color: transparent;">
+  <tr>
+    <td style="text-align: right; padding-right: 0.5em; border: 1px solid transparent;">2020年 ～ 2022年</td>
+    <td style="border: 1px solid transparent;">修士 (電子工学・スピントロニクス)</td>
+  </tr>
+  <tr>
+    <td style="text-align: right; padding-right: 0.5em; border: 1px solid transparent;">2022年 ～</td>
+    <td style="border: 1px solid transparent;">光センサーの開発エンジニア</td>
+  </tr>
+</table>
 
 ## 自己紹介
 電子回路や光学デバイスについて勉強しています。  
-積読本も多く恐縮ですが、専門書が好きです。 ☕📚
+積読本が多く恐縮ですが、専門書が好きです。 ☕📚
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
