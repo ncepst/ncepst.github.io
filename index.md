@@ -1,5 +1,6 @@
-[PyExcelTools](https://github.com/ncepst/PyExcelTools)について
----
+## リポジトリ紹介
+
+### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
 会社で Excel 自動化といえば、昔からある VBA が主流であり、  
 「なぜPythonを使うのか」と聞かれることもあります。  
@@ -25,6 +26,8 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 学生時代には、物理系の研究テーマを志望していましたが、  
 現在は、実務で役立つ知見を身につけたいと考えるようになり、  
 iPadに電子化した専門書を入れて、参照できるようにしています。  
+
+※ ncepst は、2016年頃から個人的に使用しているハンドルネームです。
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
