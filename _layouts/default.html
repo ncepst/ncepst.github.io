@@ -4,24 +4,17 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
 
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        // 下付き文字をデフォルトで立体化
-        processEscapes: true,
-        macros: {},
-        tags: 'ams',
-        // 拡張設定で "_" を上書き
-        // 文字1つの下付き文字を立体に
-        // 注意: 複雑な式で副作用が出る場合あり
-        mathchar0mo: {
-          "_": ["_", {mathvariant: "mathrm"}]
-        }
-      }
-    };
-  </script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    macros: {
+      _ : ['_{\\mathrm{#1}}', 1]  // x_i と書くだけで立体
+    }
+  }
+};
+</script>
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
