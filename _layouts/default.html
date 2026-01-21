@@ -4,17 +4,40 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
 
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']],
-    macros: {
-      _ : ['_{\\mathrm{#1}}', 1]  // x_i と書くだけで立体
-    }
-  }
-};
-</script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      startup: {
+        ready() {
+          const TexParser = MathJax._.input.tex.TexParser;
+          const TexSymbol = MathJax._.input.tex.Symbol;
+
+          // 元の "_" を保存
+          const oldSubscript = TexParser.prototype.subscript;
+
+          // "_" を上書き
+          TexParser.prototype.subscript = function (name) {
+            const arg = this.ParseArg(name);
+            this.Push(
+              this.create('node', 'msub', [
+                this.stack.Top().Last,
+                this.create('node', 'mrow', [
+                  this.create('node', 'mi', {
+                    mathvariant: 'normal'
+                  }, arg.childNodes)
+                ])
+              ])
+            );
+          };
+
+          MathJax.startup.defaultReady();
+        }
+      }
+    };
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
