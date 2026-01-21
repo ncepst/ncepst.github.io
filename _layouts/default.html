@@ -7,10 +7,11 @@
   <script>
     MathJax = {
       tex: {
-        inlineMath: [['$', '$']],
-        displayMath: [['$$', '$$']],
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
         macros: {
-          _: ['_{\\mathrm{#1}}', 1]
+          // 添字を立体にするためのマクロ
+          s: ['_{\\mathrm{#1}}', 1]
         }
       }
     };
