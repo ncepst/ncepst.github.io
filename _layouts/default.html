@@ -3,6 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
+
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        macros: {
+          // 下付き文字を立体にするマクロ
+          subi: ['_{\\mathrm{#1}}', 1],
+          subiTwo: ['_{\\mathrm{#1#2}}', 2] // 2文字以上用（必要なら使う）
+        }
+      }
+    };
+  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 <body>
