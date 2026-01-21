@@ -7,33 +7,10 @@
   <script>
     MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
-      },
-      startup: {
-        ready() {
-          const TexParser = MathJax._.input.tex.TexParser;
-          const TexSymbol = MathJax._.input.tex.Symbol;
-
-          // 元の "_" を保存
-          const oldSubscript = TexParser.prototype.subscript;
-
-          // "_" を上書き
-          TexParser.prototype.subscript = function (name) {
-            const arg = this.ParseArg(name);
-            this.Push(
-              this.create('node', 'msub', [
-                this.stack.Top().Last,
-                this.create('node', 'mrow', [
-                  this.create('node', 'mi', {
-                    mathvariant: 'normal'
-                  }, arg.childNodes)
-                ])
-              ])
-            );
-          };
-
-          MathJax.startup.defaultReady();
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        macros: {
+          _: ['_{\\mathrm{#1}}', 1]
         }
       }
     };
