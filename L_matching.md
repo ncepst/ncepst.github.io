@@ -5,7 +5,7 @@ L型マッチング回路の設計手順
 $$R_{high}=max(R_S,R_L)$$  
 $$R_{low}=min(R_S,R_L)$$  
 
-$$Q=\sqrt{\frac{R_{low}}{R_{high}} -1}$$  
+$$Q=\sqrt{\frac{R_{high}}{R_{low}} -1}$$  
 
 ①RL > Rsで LPF型  
 　直列にインダクタ $${X_{S}=QR_S}$$ 、負荷と並列にキャパシタ $${X_{P}=-\frac{R_L}{Q}}$$    
