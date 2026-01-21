@@ -9,6 +9,7 @@ L型マッチング回路の設計手順
 $$R_{high}=max(R_S,R_L)$$  
 $$R_{low}=min(R_S,R_L)$$  
 
+まずQ値を求めます  
 $$Q=\sqrt{\frac{R_{high}}{R_{low}} -1}$$  
 
 ①RL > Rsで LPF型  
