@@ -15,7 +15,12 @@ Qは無効電力の大きさを表す無効率で、
 並列の場合は、 $$Q=\frac{R}{X}$$ (同一電圧でRに対する電流の比⇒アドミタンスの位相角から定義)  
 
 素子値を決めるために、まずQ値を以下の式で求めます。  
-Qには、部品の共振Q、マッチングQ (回路の負荷Q) 、フィルタのQ $$(Q_{\mathrm{f}}=\frac{f_{\mathrm{0}}}{BW_{\mathrm{-3dB}}})$$ がありますが、以下はマッチングQです。  
+Qには、  
+・部品の共振Q : $$Q_{\mathrm{u}}$$    
+・外部Q　　　 : $$Q_{\mathrm{e}}$$    
+・マッチングQ (回路の負荷Q):  $$\frac{1}{Q_{\mathrm{m}}}=\frac{1}{Q_{\mathrm{u}}}+\frac{1}{Q_{\mathrm{e}}}$$  
+・実測から求まるフィルタのQ $$(Q_{\mathrm{f}}=\frac{f_{\mathrm{0}}}{BW_{\mathrm{-3dB}}})$$ 
+がありますが、以下のQはマッチングQです。  
 $$Q_{\mathrm{m}}=\sqrt{\frac{R_{\mathrm{high}}}{R_{\mathrm{low}}} -1}$$  
 
 ①RL > Rsで LPF型  
