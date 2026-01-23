@@ -18,7 +18,7 @@ Qは無効電力の大きさを表す無効率で、
 Qには、  
 ・部品の共振Q : $$Q_{\mathrm{u}}$$    
 ・外部Q　　　 : $$Q_{\mathrm{e}}$$    
-・マッチングQ (回路の負荷Q):  $$\frac{1}{Q_{\mathrm{m}}}=\frac{1}{Q_{\mathrm{u}}}+\frac{1}{Q_{\mathrm{e}}}$$  
+・マッチングQ (回路の負荷Q): $$Q_{\mathrm{m}}$$     (共振器のときには、 $$\frac{1}{Q_{\mathrm{m}}}=\frac{1}{Q_{\mathrm{u}}}+\frac{1}{Q_{\mathrm{e}}}$$  )    
 ・実測から求まるフィルタのQ $$(Q_{\mathrm{f}}=\frac{f_{\mathrm{0}}}{BW_{\mathrm{-3dB}}})$$  
 がありますが、以下のQはマッチングQです。  
 $$Q_{\mathrm{m}}=\sqrt{\frac{R_{\mathrm{high}}}{R_{\mathrm{low}}} -1}$$  
