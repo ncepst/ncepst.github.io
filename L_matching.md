@@ -70,7 +70,7 @@ $$Q_{\mathrm{m}}=\sqrt{\frac{R_{\mathrm{high}}}{R_{\mathrm{low}}} -1}$$
 　 $$R_{\mathrm{eq}}=\frac{R}{1+Q^2}$$    
 
 
-## Qの意味 {#q} 
+<h2 id="q">Qの意味</h2>
 
 Qは無効電力の大きさを表す無効率で、  
 直列の場合は、 $$Q=\frac{X}{R}$$ (同一電流でRに対する電圧の比⇒インピーダンスの位相角から定義)      
