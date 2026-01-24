@@ -22,7 +22,7 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 社会人4年目。  
 電子回路や光学デバイスを中心に、個人学習として勉強中です。
 
-## 予備知識
+## 記事
 - [L型マッチング回路](L_matching.md)
 - [RF公式](RF_formula.md)  
 - [MOSFET](assets/pdf/MOSFET_1.pdf)
