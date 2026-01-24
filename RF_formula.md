@@ -2,7 +2,9 @@
 
 表皮深さ(skin depth)  
 ${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$  
-⇒ ${\sqrt{f}}$に反比例する
+⇒ ${\sqrt{f}}$に反比例する    
+導体抵抗は断面積(表皮深さ)に反比例するため、導体損は ${\sqrt{f}}$ に比例する。　　  
+同軸ケーブルには導体損と誘電体損があるが、1GHzを下回る周波数では導体損が支配的。  
 
 特性インピーダンス  
 ${Z_0=\sqrt{\frac{R+j\omega L}{G+j\omega C}}}$  
@@ -19,7 +21,7 @@ ${VSWR=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$
 入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
 
-${\alpha=0}$ では、  
+無損失線路 ${\alpha=0}$ では、  
 ${Z_{in}=Z_0\frac{Z_L+Z_0jtan(\beta l)}{Z_0+Z_Ljtan(\beta l)}}$  
 
 ${l=\frac{\lambda}{4}}$ では、 ${\lambda/4}$ インピーダンス変換器となり、    
