@@ -52,7 +52,8 @@ Sパラメータ(散乱パラメータ)
 ${VSWR=\frac{V_{max}+V_{min}}{V_{max}-V_{min}}}$  
 ${VSWR=\frac{1+|\Gamma|}{1-|\Gamma|}}$  
 ${VSWR=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$  
-(スミスチャートでは、円の下側に目盛がある)  
+VSWRは1~∞の値となり、VSWR=1.5で損失は4%  
+(スミスチャートでは、円の下側に目盛がある)   
 
 入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
