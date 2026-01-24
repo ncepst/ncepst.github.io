@@ -27,7 +27,6 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 - [RF公式](RF_formula.md)  
 - [MOSFET](assts/pdf/MOSFET_1.pdf)
 - [トランス](assts/pdf/transformer.pdf)
-- [半導体プロセス]()
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
