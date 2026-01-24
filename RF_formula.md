@@ -1,7 +1,7 @@
 # RF関連
 
 表皮深さ(skin depth)  
-${\delta=\sqrt{\frac{2 \sigma}{\omega \mu}}}$  
+${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$  
 ⇒ ${\sqrt{f}}$に反比例する
 
 特性インピーダンス  
