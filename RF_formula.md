@@ -18,4 +18,4 @@ ${\gamma =\sqrt{(R+j\omega L)(G+j\omega C)}}$
 
 ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$
 
-${VSWR=\frac{V_{max}+V_{min}}{V_{max}-V_{min}}=\frac{1+|\Gamma|}{1-|\Gamma|}=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$
+${VSWR=\frac{V_{max}+V_{min}}{V_{max}-V_{min}}=\frac{1+|\Gamma|}{1-|\Gamma|}=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$  
