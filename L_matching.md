@@ -14,14 +14,24 @@ Qは無効電力の大きさを表す無効率で、
 直列の場合は、 $$Q=\frac{X}{R}$$ (同一電流でRに対する電圧の比⇒インピーダンスの位相角から定義)      
 並列の場合は、 $$Q=\frac{R}{X}$$ (同一電圧でRに対する電流の比⇒アドミタンスの位相角から定義)  
 
-素子値を決めるために、まずQ値を以下の式で求めます。  
+Qは、「共振しているエネルギーが、どれだけゆっくり失われるか」を表す量で、  
+共振角周波数 $$\omega_{\mathrm{0}}$$ 、内部エネルギー $$W$$、損失エネルギー $$P$$  を用いて、    
+$$Q=\omega_{\mathrm{0}} \frac{W}{P}$$  
+で定義される量です。 $$\omega_{\mathrm{0}}$$ と時定数τ  に比例します。  
+  
 Qには、  
-・部品の共振Q : $$Q_{\mathrm{u}}$$    
-・外部Q　　　 : $$Q_{\mathrm{e}}$$    
-・マッチングQ (回路の負荷Q): $$Q_{\mathrm{m}}$$     (共振器動作のときには、 $$\frac{1}{Q_{\mathrm{m}}}=\frac{1}{Q_{\mathrm{u}}}+\frac{1}{Q_{\mathrm{e}}}$$  )    
-・実測から求まるフィルタのQ $$(Q_{\mathrm{f}}=\frac{f_{\mathrm{0}}}{BW_{\mathrm{-3dB}}})$$  
-がありますが、以下のQはマッチングQです。  
-$$Q_{\mathrm{m}}=\sqrt{\frac{R_{\mathrm{high}}}{R_{\mathrm{low}}} -1}$$  
+・部品Q : コイル: $$Q_{\mathrm{L}}=\frac{\omega L} {R}$$ 、 キャパシタ： $$Q_{\mathrm{C}}=\frac{1}{\omega CR}$$  
+・共振Q(Unloaded Q) : $$Q_{\mathrm{u}}$$ ( $$\frac{1}{Q_{\mathrm{u}}}=\frac{1}{Q_{\mathrm{L}}}+\frac{1}{Q_{\mathrm{C}}}$$ )  
+・外部Q : $$Q_{\mathrm{e}}$$  
+・負荷Q : $$Q_{\mathrm{L}}$$  (共振動作のときには、 $$\frac{1}{Q_{\mathrm{L}}}=\frac{1}{Q_{\mathrm{u}}}+\frac{1}{Q_{\mathrm{e}}}$$  )  
+    ⇒　実測から、Q $$(Q_{\mathrm{f}}=\frac{f_{\mathrm{0}}}{BW_{\mathrm{-3dB}}})$$ で求める。  
+・フィルタQ：1段の場合には負荷Qと同じ値となる。多段のフィルタ仕様で用いる。  
+・マッチングQ：マッチング回路の設計に用いる
+
+がありますが、以下のQは抵抗比から求まるマッチングQです。  
+素子値を決めるために、まずQ値を以下の式で求めます。  
+$$Q_{\mathrm{m}}=\sqrt{\frac{R_{\mathrm{high}}}{R_{\mathrm{low}}} -1}$$   
+マッチングQに対して、共振Qの方が5倍以上大きくなるように、コイルとキャパシタを選択します。  
 
 ①RL > Rsで LPF型  
 　直列にインダクタ $${X_{S}=QR_S}$$ 、負荷と並列にキャパシタ $${X_{P}=-\frac{R_L}{Q}}$$    
