@@ -17,12 +17,12 @@ ${VSWR=\frac{1+|\Gamma|}{1-|\Gamma|}}$
 ${VSWR=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$  
 
 入力インピーダンス  
-${Z_{in}=Z_0\frac{Z_0+Z_Ltanh(\gamma l)}{Z_L+Z_0tanh(\gamma l)}}$  
+${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
 
 ${\alpha=0}$ では、  
-${Z_{in}=Z_0\frac{Z_0+Z_Ljtan(\beta l)}{Z_L+Z_0jtan(\beta l)}}$  
+${Z_{in}=Z_0\frac{Z_L+Z_0jtan(\beta l)}{Z_0+Z_Ljtan(\beta l)}}$  
 
-${l=\frac{\lambda}{4}}$ では、  
+${l=\frac{\lambda}{4}}$ では、 ${\lambda/4}$ インピーダンス変換器となり、    
 ${Z_{in}=\frac{Z_0^2}{Z_L}}$
 
 波動インピーダンス (電波インピーダンス)  
@@ -50,3 +50,8 @@ ${v_p=\frac{1}{\sqrt{\varepsilon_0 \mu_0}}=c}$
 
 群速度:  
 ${v_g=\frac{d\omega}{d\beta}}$ 
+
+結合線路の結合係数k    
+${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$  
+近端クロストーク　NEXT≈ $${k}$$  
+遠端クロストーク　FEXT≈ $${k \Delta v}$$   ( ${\Delta v = v_{even}-v_{odd}}$)  
