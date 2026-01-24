@@ -1,4 +1,4 @@
-# RF関連
+# RF公式
 
 表皮深さ(skin depth)  
 ${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$  
