@@ -25,6 +25,8 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 ## 予備知識
 - [L型マッチング回路](L_matching.md)
 - [RF公式](RF_formula.md)  
+- [MOSFET](mosfet_1.pdf)  
+
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
