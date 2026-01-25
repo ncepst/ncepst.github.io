@@ -27,7 +27,7 @@ ${Z_0=\sqrt{\frac{L}{C}}}$
     
 低損失線路近似では、  
 減衰定数 ${\alpha \approx \alpha_c + \alpha_d}$  
-導体損 ${\alpha_c= \frac{1}{2}\frac{R}{Z_0}=\frac{R}{2}\sqrt{\frac{C}{L}}}$   
+導体損失 ${\alpha_c= \frac{1}{2}\frac{R}{Z_0}=\frac{R}{2}\sqrt{\frac{C}{L}}}$   
 ​
 誘電体損失 ${\alpha_d= \frac{1}{2}GZ_0=\frac{G}{2}\sqrt{\frac{L}{C}}∝ f\cdot\tan{\delta}\cdot\sqrt{\varepsilon_r}}$  
 位相定数 ${\beta=\omega \sqrt{LC}}$
