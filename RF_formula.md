@@ -100,7 +100,7 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 
 近端クロストーク　NEXT≈ ${\frac{1}{4}(\left|\frac{C_{12}}{C_{11}}\right|+\frac{L_{12}}{L_{11}})}$  
 遠端クロストーク　FEXT≈ ${\frac{l}{T_r}\frac{T_d}{2}(\left|\frac{C_{12}}{C_{11}}\right|-\frac{L_{12}}{L_{11}})}$  
-${T_d=\sqrt{L_{11}C_{11}}}$  
+遅延時間 ${T_d=\sqrt{L_{11}C_{11}}}$  
 
 4つの基本的な電磁結合メカニズム  
 ・伝導結合(共通インピーダンス結合)  
