@@ -96,7 +96,7 @@ ${Z=\sqrt{\frac{\mu_0}{\varepsilon}}=\frac{Z_0}{n}}$
 垂直入射での光の反射率  
 ${R=\left(\frac{n_1-n_2}{n_1+n_2}\right)^2}$  
 ポインティングベクトル(平均電力密度)  
-${S=E×H=\frac{E_{\mathrm{rms}}^2}{Z}=\frac{GP}{4\pi r^2} [W/m^2]}$  
+${\<S\>=\<E \times H\>=\frac{E_{\mathrm{rms}}^2}{Z}=\frac{GP}{4\pi r^2} [W/m^2]}$  
 Gはアンテナゲイン ${G(\theta, \phi)}$  
 
 群速度:  
