@@ -100,9 +100,11 @@ ${S=E×H=\frac{E_{\mathrm{rms}}^2}{Z}=\frac{GP}{4\pi r^2} [W/m^2]}$
 
 群速度:  
 ${v_g=\frac{d\omega}{d\beta}}$  
-群遅延:  
-${\tau=-\frac{d\phi}{d\omega}}$  
+周波数応答 ${H(\omega)=\left|H(\omega)\right|e^{j \phi(\omega)}}$ の群遅延    
+${\tau_g=-\frac{d\phi(\omega)}{d\omega}}$  
 
+偶インピーダンス ${Z_{even}}$ :2本の線路に同じ大きさ・同じ位相で励振したときの1本あたりのモード特性インピーダンス    
+奇インピーダンス ${Z_{odd }}$ :2本の線路に同じ大きさ・逆の位相で励振したときの1本あたりのモード特性インピーダンス  
 結合線路の結合係数k    
 ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$  
 近端クロストーク　NEXT≈ $${k}$$  
