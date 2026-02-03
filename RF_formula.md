@@ -156,7 +156,7 @@ $$
 振幅特性: ${\left|H(e^{j\omega})\right|}$  
 位相特性: ${\angle(H(e^{j\omega}))}$  
 
-IIRフィルタ(フィードバック) 
+IIRフィルタ(フィードバックあり): 
 
 $$
 y[n] = \sum_{k=0}^{M} b_kx[n-k] - \sum_{k=1}^{N} a_ky[n-k]
@@ -171,3 +171,9 @@ Y(z) \left( 1+\sum_{k=1}^{N} a_k z^{-k} \right) = \left( \sum_{k=0}^{M} b_k z^{-
 H(z)=\frac{Y(z)}{X(z)}=\frac{\sum_{k=0}^{M} b_k z^{-k}}{1+\sum_{k=1}^{N} a_k z^{-k}}
 \end{aligned}
 $$
+
+DFE(Decision feedback equalizer):  
+
+$$
+y[n] = x[n]-\sum_{k} d_k\hat{x}[n-k]
+$$  
