@@ -133,14 +133,41 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 ・ ${\Delta V_C=\Delta hV_N}$  
 
 デジタルフィルタ  
-FIRフィルタ(畳み込み)
+FIRフィルタ(畳み込み):タップ数L,タップ係数h[k]
 
 $$ 
 y[n] = \sum_{k=0}^{L-1} h[k]x[n-k]  
 $$
 
+Z変換(伝達関数)
+
+$$
+Y(z)=H(z)X(z), \qquad
+H(z)=\sum_{k=0}^{L-1} h[k]z^{-k} 
+$$
+
+周波数応答の公式  
+z平面の単位円 ${z=e^{j \omega}}$ に代入:  
+
+$$
+H(e^{j\omega})=\sum_{k=0}^{L-1} h[k]e^{-j\omega k} 
+$$
+
+振幅特性: ${\left|H(e^{j\omega})\right|}$  
+位相特性: ${\angle(H(e^{j\omega}))}$  
+
 IIRフィルタ(フィードバック) 
 
 $$
-{y[n] = \sum_{k=0}^{M} b_kx[n-k] - \sum_{k=1}^{N} a_ky[n-k]}
+y[n] = \sum_{k=0}^{M} b_kx[n-k] - \sum_{k=1}^{N} a_ky[n-k]
 $$  
+
+伝達関数は  ${Z[y[n]] = Y(z), \quad Z[x[n-k]] = z^{-k} X(z), \quad Z[y[n-k]] = z^{-k} Y(z)}$ を用いて、
+
+$$
+\begin{aligned}
+Y(z) = \sum_{k=0}^{M} b_k z^{-k} X(z) - \sum_{k=1}^{N}  a_k z^{-k} Y(z) \\
+Y(z) \left( 1+\sum_{k=1}^{N} a_k z^{-k} \right) = \left( \sum_{k=0}^{M} b_k z^{-k} \right) X(z) \\
+H(z)=\frac{Y(z)}{X(z)}=\frac{\sum_{k=0}^{M} b_k z^{-k}}{1+\sum_{k=1}^{N} a_k z^{-k}}
+\end{aligned}
+$$
