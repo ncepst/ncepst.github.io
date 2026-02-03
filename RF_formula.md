@@ -87,8 +87,10 @@ ${v_p=\frac{\omega}{\beta}=\frac{1}{\sqrt{LC}}}$
 
 LとCの幾何学項が打ち消しあう場合  
 ${v_p=\frac{\omega}{\beta}=\frac{1}{\sqrt{\varepsilon \mu}}}$  
-真空中では  
-${v_p=\frac{1}{\sqrt{\varepsilon_0 \mu_0}}=c}$
+真空中では、  
+${v_p=\frac{1}{\sqrt{\varepsilon_0 \mu_0}}=c}$  
+光の屈折率nは、  
+${n=\frac{c}{v_p}=\sqrt{\varepsilon_r \mu_r}}$
 
 群速度:  
 ${v_g=\frac{d\omega}{d\beta}}$ 
