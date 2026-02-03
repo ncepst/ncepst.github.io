@@ -172,10 +172,9 @@ H(z)=\frac{Y(z)}{X(z)}=\frac{\sum_{k=0}^{M} b_k z^{-k}}{1+\sum_{k=1}^{N} a_k z^{
 \end{aligned}
 $$
 
-Z変換は畳み込みを掛け算に変える。  
-${z^n}$ をLTI(線形・時不変)系の固有関数    
-${H(z)}$ をその固有値  
-として、Z変換はLTI系を対角化している。  
+注)
+- Z変換は畳み込みを掛け算に変える  
+- Z変化は ${z^n}$ をLTI(線形・時不変)系の固有関数, ${H(z)}$ をその固有値とし、LTI系を対角化している  
 
 DFE(Decision feedback equalizer):  
 
