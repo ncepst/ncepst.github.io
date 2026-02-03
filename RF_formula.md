@@ -99,7 +99,9 @@ ${R=\left(\frac{n_1-n_2}{n_1+n_2}\right)^2}$
 ${S=E×H=\frac{E_{\mathrm{rms}}^2}{Z}=\frac{GP}{4\pi r^2} [W/m^2]}$  
 
 群速度:  
-${v_g=\frac{d\omega}{d\beta}}$ 
+${v_g=\frac{d\omega}{d\beta}}$  
+群遅延:  
+${\tau=-\frac{d\phi}{d\omega}}$  
 
 結合線路の結合係数k    
 ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$  
