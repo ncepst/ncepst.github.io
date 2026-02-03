@@ -96,6 +96,9 @@ ${Z=\sqrt{\frac{\mu_0}{\varepsilon}}=\frac{Z_0}{n}}$
 垂直入射での光の反射率  
 ${R=\left(\frac{n_1-n_2}{n_1+n_2}\right)^2}$
 
+ポインティングベクトル(平均電力密度)  
+${S=\frac{E_{\mathrm{rms}}^2}{Z}}$  
+
 群速度:  
 ${v_g=\frac{d\omega}{d\beta}}$ 
 
