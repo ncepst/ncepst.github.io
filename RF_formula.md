@@ -90,7 +90,11 @@ ${v_p=\frac{\omega}{\beta}=\frac{1}{\sqrt{\varepsilon \mu}}}$
 真空中では  
 ${v_p=\frac{1}{\sqrt{\varepsilon_0 \mu_0}}=c}$  
 光の屈折率nは  
-${n=\frac{c}{v_p}=\sqrt{\varepsilon_r \mu_r}}$
+${n=\frac{c}{v_p}=\sqrt{\varepsilon_r \mu_r}}$  
+非磁性媒質での波動インピーダンス  
+${Z=\sqrt{\frac{\mu}{\varepsilon}}=\frac{Z_0}{n}}$    
+垂直入射での光の反射率  
+${R=\left(\frac{n_1-n_2}{n_1+n_2}\right)^2}$
 
 群速度:  
 ${v_g=\frac{d\omega}{d\beta}}$ 
