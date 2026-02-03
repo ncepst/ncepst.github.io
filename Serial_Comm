@@ -1,0 +1,10 @@
+SPI: SCLK, MOSI, MISO, CSの4線のシリアル同期通信
+CSがH⇒Lで通信開始、CSがL⇒Hで通信の区切り(終了)
+
+I2C: SCL, SDAの2線のシリアル同期通信
+スタート条件: SCLがHのときにSDAがH⇒L
+データ通信: SCLがLのときにSDAが切り替わって、SCLがHのときにSDAの値をREADする
+ストップ条件: SCLがHのときにSDAをL⇒H
+ACKはSDA＝L、NACKはSDA＝H
+
+UARTは非同期シリアル通信
