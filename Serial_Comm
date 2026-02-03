@@ -7,4 +7,7 @@ I2C: SCL, SDAの2線のシリアル同期通信
 ストップ条件: SCLがHのときにSDAをL⇒H
 ACKはSDA＝L、NACKはSDA＝H
 
-UARTは非同期シリアル通信
+START→アドレス(7bit)+R/W(1bit)→ACK→データ(8bit)→ACK→...→STOP
+
+UART: 非同期シリアル通信
+スタートビット、ストップビット、ボーレート誤差をどこまで許容できるか
