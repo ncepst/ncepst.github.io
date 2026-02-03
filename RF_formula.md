@@ -110,8 +110,8 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 近端クロストーク　NEXT≈ $${k}$$  
 遠端クロストーク　FEXT≈ $${k \Delta v}$$   ( ${\Delta v = v_{even}-v_{odd}}$)  
 
-磁気結合係数 ${k_L=\frac{M}{\sqrt{L_1L_2}}}$  
-容量結合係数 ${k_C=\frac{C_{12}}{\sqrt{C_1C_2}}}$  
+磁気結合係数 ${k_L=\frac{M}{\sqrt{L_1L_2}}　(-1≦k_L≦1)}$  
+容量結合係数 ${k_C=\frac{C_{12}}{\sqrt{C_1C_2}}　(0≦k_C<1)}$  
 
 対称線路では、 ${C_{11}=C_{22},　L_{11}=L_{22}}$ であり、  
 近端クロストーク　NEXT= ${\frac{1}{4}\left(\left|\frac{C_{12}}{C_{11}}\right|+\frac{L_{12}}{L_{11}}\right)}$  
