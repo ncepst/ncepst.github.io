@@ -28,11 +28,11 @@ G：単位長さあたりのコンダクタンス → 誘電体損失（漏れ�
 低損失線路近似  
 ${Z_0=\sqrt{\frac{L}{C}}}$  
 
-伝搬定数  ${\gamma =\sqrt{(R+j\omega L)(G+j\omega C)}}$  
+${伝搬定数: \gamma =\sqrt{(R+j\omega L)(G+j\omega C)}}$  
     
 低損失線路近似では、  
-減衰定数 ${\alpha \approx \alpha_c + \alpha_d}$  
-導体損失 ${\alpha_c= \frac{1}{2}\frac{R}{Z_0}=\frac{R}{2}\sqrt{\frac{C}{L}}}$   
+${減衰定数: \alpha \approx \alpha_c + \alpha_d}$  
+${導体損失: \alpha_c= \frac{1}{2}\frac{R}{Z_0}=\frac{R}{2}\sqrt{\frac{C}{L}}}$   
 ​
 誘電体損失 ${\alpha_d= \frac{1}{2}GZ_0=\frac{G}{2}\sqrt{\frac{L}{C}}∝ f\cdot\tan{\delta}\cdot\sqrt{\varepsilon_r}}$  
 位相定数 ${\beta=\omega \sqrt{LC}}$  
@@ -42,8 +42,8 @@ ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体�
 ■ストリップ線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))      
 ■マイクロストリップ線路の特性インピーダンス  
-有効比誘電率  ${\varepsilon_{\text{eff}} = \frac{\varepsilon_r + 1}{2} + \frac{\varepsilon_r - 1}{2} \left( \frac{1}{\sqrt{1 + 12\frac{h}{W}}} \right)}$  
- ${Z_0 = \frac{60}{\sqrt{\varepsilon_{\text{eff}}}} \ln\left( 8\frac{h}{W} + 0.25\frac{W}{h} \right)　　(W/h≦1の場合)}$  
+${有効比誘電率 : \varepsilon_{\text{eff}} = \frac{\varepsilon_r + 1}{2} + \frac{\varepsilon_r - 1}{2} \left( \frac{1}{\sqrt{1 + 12\frac{h}{W}}} \right)}$  
+${Z_0 = \frac{60}{\sqrt{\varepsilon_{\text{eff}}}} \ln\left( 8\frac{h}{W} + 0.25\frac{W}{h} \right)　　(W/h≦1の場合)}$  
 
 
 ■反射係数  
