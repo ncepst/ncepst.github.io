@@ -53,7 +53,6 @@ ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$
 　入力電力、反射電力、透過電力は、Sパラメータの絶対値の2乗 ${\left|S_{ij}\right|^2}$ で計算される。  
 　複素数の加算で電力を求める場合、 ${\left| a+b \right|^2= \left|a \right|^2+\left|b \right|^2+2Re(ab^*)}$ を用いる。  
 
-
 ■定在波比  
 ${VSWR=\frac{V_{max}+V_{min}}{V_{max}-V_{min}}}$  
 ${VSWR=\frac{1+|\Gamma|}{1-|\Gamma|}}$  
@@ -61,7 +60,7 @@ ${VSWR=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$
 VSWRは1~∞の値となり、VSWR=1.5で損失は4%  
 (スミスチャートでは、円の下側に目盛がある)   
 
-■リターンロス  
+■リターンロス(Return Loss)  
 ${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=20 \log_{10} \left(\frac{VSWR+1}{VSWR-1}\right)}$  
 ${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$  
 反射0でRL=-∞
@@ -70,13 +69,15 @@ ${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$
 電圧波の透過率  
 ${/tau=1+\Gamma}$  
 
+■挿入損失(Insertion Loss)  
 電力の透過率(損失のない場合)  
 ${IL=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
 ${T=1-\left|\Gamma \right|^2}$  
 
 Sパラメータ(損失のない場合)   
+ポート1からポート2への透過パラメータ ${S_{21}}  
 ${|S_{21}|^2+|S_{11}|^2=1}$  
- 
+
 ■入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
 
