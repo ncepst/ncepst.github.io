@@ -154,7 +154,10 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 
 ■雑音指数NF (Noise Figure)  
 入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF[dB]=入力のSN比[dB]-出力のSN比[dB])  
-${F=\frac{(S/N)_{in}}{(S/N)_{out}}}$  (F>1)
+
+$$
+F=\frac{\left(\frac{S}{N}\right)_{in}}{\left(\frac{S}{N}\right)_{out}}  >1
+$$
 
 フリスの公式（多段増幅回路の雑音指数）
 ${F_{\mathrm{total}}=F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2} + \frac{F_4 - 1}{G_1 G_2 G_3} + \cdots}$  
