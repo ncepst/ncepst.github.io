@@ -213,7 +213,7 @@ $$
 y[n] = x[n]-\sum_{k} d_k\hat{x}[n-k]
 $$  
 
-# 電磁界解析
+## 電磁界解析
 MoM(モーメント法):境界条件を元に積分方程式を解く  
 PEEC(Partial Element Equivalent Circuit):等価回路で考える    
 FEM(有限要素法)   
