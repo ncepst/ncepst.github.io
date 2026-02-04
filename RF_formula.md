@@ -38,8 +38,8 @@ ${Z_0=\sqrt{\frac{L}{C}}}$
 
 同軸線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
-ストリップ線路のインピーダンス
-${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\piW}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))    
+ストリップ線路のインピーダンス  
+${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))      
 
 反射係数  
 ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$  
