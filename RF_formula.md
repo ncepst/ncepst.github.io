@@ -157,8 +157,10 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量  
 
 $$
+\begin{aligned}
 NF[dB]=入力のSN比[dB]-出力のSN比[dB] \\
 F=\frac{\left(\frac{S}{N}\right)_{in}}{\left(\frac{S}{N}\right)_{out}}  >1
+\end{aligned}
 $$
 
 フリスの公式（多段増幅回路の雑音指数）
@@ -170,7 +172,7 @@ ${F_{\mathrm{total}}=F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2} + \frac
 非線形な回路に2つ以上の異なる周波数の信号を入力すると、その和や差に対応する周波数成分が発生する
 
 3次相互変調(IM3)  
-${2f_1-f_2, 2f_2-f_1}$  
+${2f_1-f_2,　2f_2-f_1}$  
 
 ## デジタルフィルタ  
 FIRフィルタ(畳み込み): L＝タップ数,　h[k]=タップ係数(インパルス応答)
