@@ -16,8 +16,9 @@ ${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$
 誘電体損失は、周波数f、誘電率ε、誘電正接tanδに比例します。  
 
 ■特性インピーダンス:伝送線路上を進行する電圧波と電流波の比  
-※進行波(単独)に対して定義されています(無限長もしくは反射なし)。  
+※進行波(単独)に対して定義されています。(無限長もしくは無反射)  
 ${Z_0=\frac{V^＋}{I^＋}}$  
+
 ​
 ■分布定数回路の特性インピーダンス  
 ${Z_0=\sqrt{\frac{R+j\omega L}{G+j\omega C}}}$  
@@ -34,8 +35,8 @@ ${伝搬定数: \gamma =\sqrt{(R+j\omega L)(G+j\omega C)}}$
 ${減衰定数: \alpha \approx \alpha_c + \alpha_d}$  
 ${導体損失: \alpha_c= \frac{1}{2}\frac{R}{Z_0}=\frac{R}{2}\sqrt{\frac{C}{L}}}$   
 ​
-誘電体損失 ${\alpha_d= \frac{1}{2}GZ_0=\frac{G}{2}\sqrt{\frac{L}{C}}∝ f\cdot\tan{\delta}\cdot\sqrt{\varepsilon_r}}$  
-位相定数 ${\beta=\omega \sqrt{LC}}$  
+${誘電体損失: \alpha_d= \frac{1}{2}GZ_0=\frac{G}{2}\sqrt{\frac{L}{C}}∝ f\cdot\tan{\delta}\cdot\sqrt{\varepsilon_r}}$  
+${位相定数: \beta=\omega \sqrt{LC}}$  
 
 ■同軸線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
