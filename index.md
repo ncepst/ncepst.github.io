@@ -25,6 +25,7 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 ## 記事
 - [RF公式](RF_formula.md)  
 - [L型マッチング回路](L_matching.md)
+- [シリアル通信](Serial_Comm.md)
 - [MOSFET](assets/pdf/MOSFET_1.pdf)
 - [トランス](assets/pdf/transformer.pdf)
 
