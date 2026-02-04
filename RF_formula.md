@@ -142,7 +142,7 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 ・平衡線路と不平衡線路をつなげるとコモンモード電流(電流の同相成分)が励起されノイズの原因となる  
 ・ ${\Delta V_C=\Delta hV_N}$  
 
-ノイズ指数NF (Noise Figure)  
+雑音指数NF (Noise Figure)  
 入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF=入力のSN比[dB]-出力のSN比[dB])  
 
 ## デジタルフィルタ  
