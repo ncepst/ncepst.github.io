@@ -190,7 +190,8 @@ ${F_{\mathrm{total}}=F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2} + \frac
 
 ■フリスの伝送公式  
 ${P_t:送信電力,　P_r:受信電力,　G_t:送信アンテナ効率,　G_r:受信アンテナ効率,　\lambda:波長,　R:送受信間距離}$  
-${P_r= P_t G_t G_r \left( \frac{\lambda}{4\pi R} \right)^2 }$
+${P_r= P_t G_t G_r \left( \frac{\lambda}{4\pi R} \right)^2 }$  
+アンテナ理論から、有効開口面積: ${A_e=\frac{G_r \lambda^2}{4 \pi}}$ と ${\lambda^2}$ に比例する
 
 ■相互変調歪み(IMD: Inter Modulatation Distortion)  
 非線形な回路に2つ以上の異なる周波数の信号を入力すると、その和や差に対応する周波数成分が発生する
@@ -198,8 +199,9 @@ ${P_r= P_t G_t G_r \left( \frac{\lambda}{4\pi R} \right)^2 }$
 3次相互変調(IM3)  
 ${2f_1-f_2,　2f_2-f_1}$  
 
-IM3は入力電力の3乗に比例して増加する。  
-基本波とIM3を上記傾きで線を延長し、交差した点をインターセプト(Intercept Point)と呼ぶ。  
+アンプの入力電力[dBm]vs出力電力[dBm]を考えたとき、
+入力電力に比例した電力で基本波を出力するのに対し、IM3は入力電力の3乗に比例して増加する。  
+基本波(傾き1)とIM3(傾き3)の直線領域の線を延長し、交差した点をインターセプト(Intercept Point)と呼ぶ。  
 入力電力で読むとIIP, 出力電力で読むとOIP  
 増幅器の線形性を表す指標として用いられる。  
 
