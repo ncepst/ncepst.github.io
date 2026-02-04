@@ -74,7 +74,7 @@ ${\tau=1+\Gamma}$
 ポート1からポート2への透過パラメータ ${S_{21}}$  
 ${\mathrm{IL[dB]}=-20 \log_{10}\left|S_{21}\right|}$  
 
-アンプのゲイン ${G \approx 20 \log_{10}\left|S_{21}\right|}$  
+アンプのゲイン  ${G \approx 20 \log_{10}\left|S_{21}\right|}$ 
 
 *損失がない場合  
 ${\left|S_{21}\right|^2+\left|S_{11}\right|^2=1}$  
