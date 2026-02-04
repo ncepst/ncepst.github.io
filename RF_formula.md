@@ -62,7 +62,7 @@ VSWRは1~∞の値となり、VSWR=1.5で損失は4%
 (スミスチャートでは、円の下側に目盛がある)   
 
 ■リターンロス  
-${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=-20Log\left(\frac{VSWR+1}{VSWR-1}\right)}$  
+${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=-20 \log_{10} \left(\frac{VSWR+1}{VSWR-1}\right)}$  
 
 ■入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
