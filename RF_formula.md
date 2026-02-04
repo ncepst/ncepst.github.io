@@ -1,6 +1,6 @@
 # RF公式
 
-表皮深さ(skin depth)  
+■表皮深さ(skin depth)  
 ${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$  
 ⇒ ${\sqrt{f}}$に反比例する    
 導体抵抗は断面積(表皮深さ)に反比例するため、導体損は ${\sqrt{f}}$ に比例する。　　  
@@ -15,10 +15,10 @@ ${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$
 漏れコンダクタンス ${G=\omega C \tan{\delta}=\omega \varepsilon \frac{A}{d} \tan{\delta}}$  
 誘電体損失は、周波数f、誘電率ε、誘電正接tanδに比例します。  
 
-特性インピーダンス:伝送線路上を進行する電圧波と電流波の比  
+■特性インピーダンス:伝送線路上を進行する電圧波と電流波の比  
 ※進行波(単独)に対して定義されています。
 ​
-分布定数回路の特性インピーダンス  
+■分布定数回路の特性インピーダンス  
 ${Z_0=\sqrt{\frac{R+j\omega L}{G+j\omega C}}}$  
 
 R：単位長さあたりの抵抗 → 導体損失（ジュール損失）  
@@ -36,16 +36,16 @@ ${Z_0=\sqrt{\frac{L}{C}}}$
 誘電体損失 ${\alpha_d= \frac{1}{2}GZ_0=\frac{G}{2}\sqrt{\frac{L}{C}}∝ f\cdot\tan{\delta}\cdot\sqrt{\varepsilon_r}}$  
 位相定数 ${\beta=\omega \sqrt{LC}}$  
 
-同軸線路の特性インピーダンス  
+■同軸線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
-ストリップ線路の特性インピーダンス  
+■ストリップ線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))      
 
-反射係数  
+■反射係数  
 ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$  
 スミスチャートでは原点からの距離が ${\left| \Gamma \right|}$  
 
-Sパラメータ(散乱パラメータ)  
+■Sパラメータ(散乱パラメータ)  
 　入射する電力波の複素振幅に対する、反射・透過する電力波の複素振幅の比  
 　 ${S_{ij}=\frac{b_i}{a_j}}$    
 　計算では、複素振幅 ${Ae^{j(\omega t-\beta z)}}$ で時間変動を無視して、(=時間依存項 ${Ae^{j\omega t}}$ を無視)  
@@ -54,14 +54,17 @@ Sパラメータ(散乱パラメータ)
 　複素数の加算で電力を求める場合、 ${\left| a+b \right|^2= \left|a \right|^2+\left|b \right|^2+2Re(ab^*)}$ を用いる。  
 
 
-定在波比  
+■定在波比  
 ${VSWR=\frac{V_{max}+V_{min}}{V_{max}-V_{min}}}$  
 ${VSWR=\frac{1+|\Gamma|}{1-|\Gamma|}}$  
 ${VSWR=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$  
 VSWRは1~∞の値となり、VSWR=1.5で損失は4%  
 (スミスチャートでは、円の下側に目盛がある)   
 
-入力インピーダンス  
+■リターンロス  
+${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|}$  
+
+■入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
 
 無損失線路 ${\alpha=0}$ では、  
@@ -70,10 +73,10 @@ ${Z_{in}=Z_0\frac{Z_L+Z_0jtan(\beta l)}{Z_0+Z_Ljtan(\beta l)}}$
 ${l=\frac{\lambda}{4}}$ では、 ${\lambda/4}$ インピーダンス変換器となり、    
 ${Z_{in}=\frac{Z_0^2}{Z_L}}$
 
-波動インピーダンス (電波インピーダンス)  
+■波動インピーダンス (電波インピーダンス)  
 ${Z=\frac{|E|}{|H|}}$  
 
-媒質の固有インピーダンス  
+■媒質の固有インピーダンス  
 ${Z=\sqrt{\frac{\mu}{\varepsilon}}}$  
 
 ${\mu}$が上がると、磁場を作りにくくなる。磁気抵抗が大きいため。  
@@ -85,36 +88,42 @@ ${\varepsilon}$が上がると、電場を作りにくくなる。電気抵抗(�
 自由空間では、  
 ${Z_0=\sqrt{\frac{\mu_0}{\varepsilon_0}}=377 \Omega　(120\pi )}$  
 
-位相速度: 波数kに対する角周波数  
+■位相速度: 波数kに対する角周波数  
 ${v_p=\frac{\omega}{\beta}=\frac{1}{\sqrt{LC}}}$  
 
 LとCの幾何学項が打ち消しあう場合  
 ${v_p=\frac{\omega}{\beta}=\frac{1}{\sqrt{\varepsilon \mu}}}$  
 真空中では  
 ${v_p=\frac{1}{\sqrt{\varepsilon_0 \mu_0}}=c}$  
-光の屈折率nは  
+
+■光の屈折率nは  
 ${n=\frac{c}{v_p}=\sqrt{\varepsilon_r \mu_r}}$  
 非磁性媒質での波動インピーダンス  
 ${Z=\sqrt{\frac{\mu_0}{\varepsilon}}=\frac{Z_0}{n}}$    
 垂直入射での光の反射率  
 ${R=\left(\frac{n_1-n_2}{n_1+n_2}\right)^2}$  
-ポインティングベクトル(平均電力密度)  
+
+■ポインティングベクトル(平均電力密度)  
 ${\<S\>=\<E \times H\>=\frac{E_{\mathrm{rms}}^2}{Z}=\frac{GP}{4\pi r^2} [W/m^2]}$  
 Gはアンテナゲイン ${G(\theta, \phi)}$  
 
+■物性値
 Si 屈折率(光学領域):3.8～4.2(消衰係数kは波長により0～1), 比誘電率(RF領域):11.7  
 SiO2 屈折率(光学領域):1.46, 比誘電率(RF領域):3.8～4.0  
 Si3N4 屈折率(光学領域):2.00, 比誘電率(RF領域):7～8  
 イオン分極・双極子分極が RF では大きく寄与するため、比誘電率が大きくなる。  
 共有結合の強いSiでは、RFと光学で比誘電率が近い値になる。  
 
-群速度:  
+■群速度:  
 ${v_g=\frac{d\omega}{d\beta}}$  
-周波数応答 ${H(\omega)=\left|H(\omega)\right|e^{j \phi(\omega)}}$ の群遅延    
+■周波数応答 ${H(\omega)=\left|H(\omega)\right|e^{j \phi(\omega)}}$ の群遅延    
 ${\tau_g=-\frac{d\phi(\omega)}{d\omega}}$  
 
+
+■クロストーク
 偶インピーダンス ${Z_{even}}$ :2本の線路に同じ大きさ・同じ位相で励振したときの1本あたりのモード特性インピーダンス    
 奇インピーダンス ${Z_{odd }}$ :2本の線路に同じ大きさ・逆の位相で励振したときの1本あたりのモード特性インピーダンス  
+
 結合線路の結合係数k    
 ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$  
 近端クロストーク　NEXT≈ $${k}$$  
@@ -129,13 +138,13 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 　(遅延時間 ${T_d=\sqrt{L_{11}C_{11}}}$,　立ち上がり時間 ${T_r}$ ,　配線長 ${l}$ )  
 
 
-4つの基本的な電磁結合メカニズム  
+■4つの基本的な電磁結合メカニズム  
 ・伝導結合(共通インピーダンス結合)  
 ・電界結合(容量結合)  
 ・磁界結合(誘導結合)  
 ・放射結合(遠方界結合) ：波長よりも十分に長い距離。放射源の導体長もλ/10以上。
 
-不平衡度  
+■不平衡度  
 ・電流分配率から定義される  
 ・ ${h=\frac{I_1}{I_1+I_2}}$  
 ・平衡線路ではh=0.5となる。  
@@ -144,16 +153,16 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 
 ## RFIC
 
-雑音指数NF (Noise Figure)  
-入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF=入力のSN比[dB]-出力のSN比[dB])  
-${F=\frac{(S/N)_in}{(S/N)_out}}$  
+■雑音指数NF (Noise Figure)  
+入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF[dB]=入力のSN比[dB]-出力のSN比[dB])  
+${F=\frac{(S/N)_in}{(S/N)_out}}$  (F>1)
 
 フリスの公式（多段増幅回路の雑音指数）
 ${F_{\mathrm{total}}=F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2} + \frac{F_4 - 1}{G_1 G_2 G_3} + \cdots}$  
 - 多段増幅回路では入力段の素子で雑音指数がほぼ決まる。  
 - 初段の電力利得が十に高ければ2段目以降の回路の雑音指数の影響を受けにくくなる
 
-相互変調歪み(IMD: Inter Modulatation Distortion)  
+■相互変調歪み(IMD: Inter Modulatation Distortion)  
 
 ## デジタルフィルタ  
 FIRフィルタ(畳み込み): L＝タップ数,　h[k]=タップ係数(インパルス応答)
