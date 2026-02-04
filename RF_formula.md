@@ -63,6 +63,7 @@ VSWRは1~∞の値となり、VSWR=1.5で損失は4%
 
 ■リターンロス  
 ${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=20 \log_{10} \left(\frac{VSWR+1}{VSWR-1}\right)}$  
+${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$  
 反射0でRL=-∞
 
 ■入力インピーダンス  
