@@ -54,9 +54,9 @@ ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$
 　複素数の加算で電力を求める場合、 ${\left| a+b \right|^2= \left|a \right|^2+\left|b \right|^2+2Re(ab^*)}$ を用いる。  
 
 ■定在波比  
-${VSWR=\frac{V_{max}+V_{min}}{V_{max}-V_{min}}}$  
-${VSWR=\frac{1+|\Gamma|}{1-|\Gamma|}}$  
-${VSWR=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$  
+${\mathrm{VSWR}=\frac{V_{max}+V_{min}}{V_{max}-V_{min}}}$  
+${\mathrm{VSWR}=\frac{1+|\Gamma|}{1-|\Gamma|}}$  
+${\mathrm{VSWR}=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$  
 VSWRは1~∞の値となり、VSWR=1.5で損失は4%  
 (スミスチャートでは、円の下側に目盛がある)   
 
@@ -74,7 +74,7 @@ ${\tau=1+\Gamma}$
 ポート1からポート2への透過パラメータ ${S_{21}}$  
 ${\mathrm{IL[dB]}=-20 \log_{10}\left|S_{21}\right|}$  
 
-アンプのゲイン  ${G \approx 20log_{10}\left|S_{21}\right|}$  
+アンプのゲイン G≈ ${20log_{10}\left|S_{21}\right|}$  
 
 *損失がない場合  
 ${\left|S_{21}\right|^2+\left|S_{11}\right|^2=1}$  
