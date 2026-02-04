@@ -96,7 +96,7 @@ ${v_p=\frac{\omega}{\beta}=\frac{1}{\sqrt{\varepsilon \mu}}}$
 真空中では  
 ${v_p=\frac{1}{\sqrt{\varepsilon_0 \mu_0}}=c}$  
 
-■光の屈折率nは  
+■光の屈折率nとの関係式  
 ${n=\frac{c}{v_p}=\sqrt{\varepsilon_r \mu_r}}$  
 非磁性媒質での波動インピーダンス  
 ${Z=\sqrt{\frac{\mu_0}{\varepsilon}}=\frac{Z_0}{n}}$    
@@ -120,7 +120,7 @@ ${v_g=\frac{d\omega}{d\beta}}$
 ${\tau_g=-\frac{d\phi(\omega)}{d\omega}}$  
 
 
-■クロストーク
+■結合係数とクロストーク
 偶インピーダンス ${Z_{even}}$ :2本の線路に同じ大きさ・同じ位相で励振したときの1本あたりのモード特性インピーダンス    
 奇インピーダンス ${Z_{odd }}$ :2本の線路に同じ大きさ・逆の位相で励振したときの1本あたりのモード特性インピーダンス  
 
