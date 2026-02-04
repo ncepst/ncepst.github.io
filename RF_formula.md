@@ -62,7 +62,7 @@ VSWRは1~∞の値となり、VSWR=1.5で損失は4%
 (スミスチャートでは、円の下側に目盛がある)   
 
 ■リターンロス  
-${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|}$  
+${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=-20Log\left(\frac{VSWR+1}{VSWR-1}\right)}$  
 
 ■入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
@@ -114,10 +114,11 @@ Si3N4 屈折率(光学領域):2.00, 比誘電率(RF領域):7～8
 イオン分極・双極子分極が RF では大きく寄与するため、比誘電率が大きくなる。  
 共有結合の強いSiでは、RFと光学で比誘電率が近い値になる。  
 
-■群速度:  
+■群速度  
 ${v_g=\frac{d\omega}{d\beta}}$  
 
-■周波数応答 ${H(\omega)=\left|H(\omega)\right|e^{j \phi(\omega)}}$ の群遅延    
+■群遅延  
+周波数応答 ${H(\omega)=\left|H(\omega)\right|e^{j \phi(\omega)}}$ の群遅延      
 ${\tau_g=-\frac{d\phi(\omega)}{d\omega}}$  
 
 ■結合係数とクロストーク  
