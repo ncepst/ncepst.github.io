@@ -66,6 +66,17 @@ ${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=20 \log_{10} \left(\frac{V
 ${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$  
 反射0でRL=-∞
 
+■透過率  
+電圧波の透過率  
+${/tau=1+\Gamma}$  
+
+電力の透過率(損失のない場合)  
+${IL=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
+${T=1-\left|\Gamma \right|^2}$  
+
+Sパラメータ(損失のない場合)   
+${|S_{21}|^2+|S_{11}|^2=1}$  
+ 
 ■入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
 
@@ -102,7 +113,7 @@ ${v_p=\frac{1}{\sqrt{\varepsilon_0 \mu_0}}=c}$
 ${n=\frac{c}{v_p}=\sqrt{\varepsilon_r \mu_r}}$  
 非磁性媒質での波動インピーダンス  
 ${Z=\sqrt{\frac{\mu_0}{\varepsilon}}=\frac{Z_0}{n}}$    
-垂直入射での光の反射率  
+垂直入射での光の反射率 (n ⇔ 1/Z)  
 ${R=\left(\frac{n_1-n_2}{n_1+n_2}\right)^2}$  
 
 ■ポインティングベクトル(平均電力密度)  
