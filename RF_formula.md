@@ -190,8 +190,13 @@ ${F_{\mathrm{total}}=F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2} + \frac
 
 ■フリスの伝送公式  
 ${P_t:送信電力,　P_r:受信電力,　G_t:送信アンテナ効率,　G_r:受信アンテナ効率,　\lambda:波長,　R:送受信間距離}$  
-${P_r= P_t G_t G_r \left( \frac{\lambda}{4\pi R} \right)^2 }$  
-アンテナ理論から、有効開口面積: ${A_e=\frac{G_r \lambda^2}{4 \pi}}$ となり、感度は、 ${\lambda^2}$ に比例する。
+
+$$
+P_r= P_t G_t G_r \left( \frac{\lambda}{4\pi R} \right)^2
+$$
+
+アンテナ理論から、有効開口面積: ${A_e=\frac{G_r \lambda^2}{4 \pi}}$ となり、  
+受信感度は ${\lambda^2}$ に比例する。
 
 ■相互変調歪み(IMD: Inter Modulatation Distortion)  
 非線形な回路に2つ以上の異なる周波数の信号を入力すると、その和や差に対応する周波数成分が発生する
