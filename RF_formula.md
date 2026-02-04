@@ -174,8 +174,13 @@ ${F_{\mathrm{total}}=F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2} + \frac
 3次相互変調(IM3)  
 ${2f_1-f_2,　2f_2-f_1}$  
 
+IM3は入力電力の3乗に比例して増加する。  
+基本波とIM3を上記傾きで線を延長し、交差した点をインターセプト(Intercept Point)と呼ぶ。  
+入力電力で読むとIIP, 出力電力で読むとOIP  
+増幅器の線形性を表す指標として用いられる。  
+
 ## デジタルフィルタ  
-FIRフィルタ(畳み込み): L＝タップ数,　h[k]=タップ係数(インパルス応答)
+■FIRフィルタ(畳み込み): L＝タップ数,　h[k]=タップ係数(インパルス応答)
 
 $$ 
 y[n] = \sum_{k=0}^{L-1} h[k]x[n-k]  
@@ -198,7 +203,7 @@ $$
 振幅特性: ${\left|H(e^{j\omega})\right|}$  
 位相特性: ${\angle(H(e^{j\omega}))}$  
 
-IIRフィルタ(フィードバックあり): 
+■IIRフィルタ(フィードバックあり): 
 
 $$
 y[n] = \sum_{k=0}^{M} b_kx[n-k] - \sum_{k=1}^{N} a_ky[n-k]
@@ -218,7 +223,7 @@ $$
 - Z変換は畳み込みを掛け算に変える  
 - Z変換は ${z^n}$ をLTI(線形・時不変)系の固有関数, ${H(z)}$ をその固有値とし、LTI系を対角化している  
 
-DFE(Decision feedback equalizer):  
+■DFE(Decision feedback equalizer):  
 
 $$
 y[n] = x[n]-\sum_{k} d_k\hat{x}[n-k]
