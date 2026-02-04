@@ -41,7 +41,10 @@ ${Z_0=\sqrt{\frac{L}{C}}}$
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
 ■ストリップ線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))      
-マイクロストリップ線路では有効比誘電率を用いる  
+■マイクロストリップ線路の特性インピーダンス  
+有効比誘電率  ${\varepsilon_{\text{eff}} = \frac{\varepsilon_r + 1}{2} + \frac{\varepsilon_r - 1}{2} \left( \frac{1}{\sqrt{1 + 12\frac{h}{W}}} \right)}$  
+ ${Z_0 = \frac{60}{\sqrt{\varepsilon_{\text{eff}}}} \ln\left( 8\frac{h}{W} + 0.25\frac{W}{h} \right)　　(W/h≦1の場合)}$  
+
 
 ■反射係数  
 ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$  
