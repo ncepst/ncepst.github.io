@@ -15,6 +15,8 @@ ${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$
 漏れコンダクタンス ${G=\omega C \tan{\delta}=\omega \varepsilon \frac{A}{d} \tan{\delta}}$  
 誘電体損失は、周波数f、誘電率ε、誘電正接tanδに比例します。  
 
+特性インピーダンス:伝送線路上を進行する電圧波と電流波の比  
+※進行波(単独)に対して定義されています。
 ​
 分布定数回路の特性インピーダンス  
 ${Z_0=\sqrt{\frac{R+j\omega L}{G+j\omega C}}}$  
@@ -32,9 +34,12 @@ ${Z_0=\sqrt{\frac{L}{C}}}$
 導体損失 ${\alpha_c= \frac{1}{2}\frac{R}{Z_0}=\frac{R}{2}\sqrt{\frac{C}{L}}}$   
 ​
 誘電体損失 ${\alpha_d= \frac{1}{2}GZ_0=\frac{G}{2}\sqrt{\frac{L}{C}}∝ f\cdot\tan{\delta}\cdot\sqrt{\varepsilon_r}}$  
-位相定数 ${\beta=\omega \sqrt{LC}}$
-  
+位相定数 ${\beta=\omega \sqrt{LC}}$  
 
+同軸線路の特性インピーダンス  
+${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
+ストリップ線路のインピーダンス
+${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\piW}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))    
 
 反射係数  
 ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$  
@@ -186,3 +191,6 @@ DFE(Decision feedback equalizer):
 $$
 y[n] = x[n]-\sum_{k} d_k\hat{x}[n-k]
 $$  
+
+ノイズ指数NF (Noise Figure):  
+入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF=入力のSN比[dB]-出力のSN比[dB])  
