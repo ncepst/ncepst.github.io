@@ -142,8 +142,18 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 ・平衡線路と不平衡線路をつなげるとコモンモード電流(電流の同相成分)が励起されノイズの原因となる  
 ・ ${\Delta V_C=\Delta hV_N}$  
 
+## RFIC
+
 雑音指数NF (Noise Figure)  
 入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF=入力のSN比[dB]-出力のSN比[dB])  
+${F=\frac{(S/N)_in}{(S/N)_out}}$  
+
+フリスの公式（多段増幅回路の雑音指数）
+${F_{\mathrm{total}}=F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2} + \frac{F_4 - 1}{G_1 G_2 G_3} + \cdots}$  
+- 多段増幅回路では入力段の素子で雑音指数がほぼ決まる。  
+- 初段の電力利得が十に高ければ2段目以降の回路の雑音指数の影響を受けにくくなる
+
+相互変調歪み(IMD: Inter Modulatation Distortion)  
 
 ## デジタルフィルタ  
 FIRフィルタ(畳み込み): L＝タップ数,　h[k]=タップ係数(インパルス応答)
@@ -194,3 +204,9 @@ DFE(Decision feedback equalizer):
 $$
 y[n] = x[n]-\sum_{k} d_k\hat{x}[n-k]
 $$  
+
+# 電磁界解析
+MoM(モーメント法):境界条件を元に積分方程式を解く  
+PEEC(Partial Element Equivalent Circuit):等価回路で考える    
+FEM(有限要素法)   
+FDTD(有限差分時間領域法)  
