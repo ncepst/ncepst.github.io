@@ -41,7 +41,7 @@ ${Z_0=\sqrt{\frac{L}{C}}}$
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
 ■ストリップ線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))      
-マイクロストリップ線路では有効比誘電率を用いる。  
+マイクロストリップ線路では有効比誘電率を用いる  
 
 ■反射係数  
 ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$  
@@ -257,6 +257,7 @@ $$
 
 注)
 - Z変換は畳み込みを掛け算に変える  
+- 微分方程式→ラプラス変換、差分方程式→Z変換  
 - Z変換は ${z^n}$ をLTI(線形・時不変)系の固有関数, ${H(z)}$ をその固有値とし、LTI系を対角化している  
 
 ■DFE(Decision feedback equalizer):  
