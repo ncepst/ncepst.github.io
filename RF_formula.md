@@ -154,9 +154,10 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 ## RFIC
 
 ■雑音指数NF (Noise Figure)  
-入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF[dB]=入力のSN比[dB]-出力のSN比[dB])  
+入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量  
 
 $$
+NF[dB]=入力のSN比[dB]-出力のSN比[dB] \\
 F=\frac{\left(\frac{S}{N}\right)_{in}}{\left(\frac{S}{N}\right)_{out}}  >1
 $$
 
