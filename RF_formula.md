@@ -71,7 +71,7 @@ ${\tau=1+\Gamma}$
 
 ■挿入損失(Insertion Loss)  
 電力の透過率(損失のない場合)  
-${IL=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
+${\mathrm{IL[dB]}=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
 ${T=1-\left|\Gamma \right|^2}$  
 
 Sパラメータ(損失のない場合)   
