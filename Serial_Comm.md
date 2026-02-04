@@ -1,13 +1,13 @@
-SPI: SCLK, MOSI, MISO, CSの4線のシリアル同期通信
+SPI: SCLK, MOSI, MISO, CSの4線のシリアル同期通信  
 CSがH⇒Lで通信開始、CSがL⇒Hで通信の区切り(終了)
 
-I2C: SCL, SDAの2線のシリアル同期通信
-スタート条件: SCLがHのときにSDAがH⇒L
-データ通信: SCLがLのときにSDAが切り替わって、SCLがHのときにSDAの値をREADする
-ストップ条件: SCLがHのときにSDAをL⇒H
-ACKはSDA＝L、NACKはSDA＝H
+I2C: SCL, SDAの2線のシリアル同期通信  
+スタート条件: SCLがHのときにSDAがH⇒L  
+データ通信: SCLがLのときにSDAが切り替わって、SCLがHのときにSDAの値をREADする  
+ストップ条件: SCLがHのときにSDAをL⇒H  
+ACKはSDA＝L、NACKはSDA＝H  
 
-START→アドレス(7bit)+R/W(1bit)→ACK→データ(8bit)→ACK→...→STOP
+START→アドレス(7bit)+R/W(1bit)→ACK→データ(8bit)→ACK→...→STOP  
 
-UART: 非同期シリアル通信
+UART: 非同期シリアル通信  
 スタートビット、ストップビット、ボーレート誤差をどこまで許容できるか
