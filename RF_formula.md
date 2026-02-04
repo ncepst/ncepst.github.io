@@ -77,7 +77,7 @@ ${\mathrm{IL[dB]}=-20 \log_{10}\left|S_{21}\right|}$
 アンプのゲイン ${G ≈ 20 log_{10}\left|S_{21}\right|}$    
 
 *損失がない場合  
-${|S_{21}|^2+|S_{11}|^2=1}$  
+${\left|S_{21}\right|^2+\left|S_{11}\right|^2=1}$  
 ${\mathrm{IL[dB]}=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
 ${T=1-\left|\Gamma \right|^2}$  
 
