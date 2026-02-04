@@ -116,6 +116,7 @@ Si3N4 屈折率(光学領域):2.00, 比誘電率(RF領域):7～8
 
 ■群速度:  
 ${v_g=\frac{d\omega}{d\beta}}$  
+
 ■周波数応答 ${H(\omega)=\left|H(\omega)\right|e^{j \phi(\omega)}}$ の群遅延    
 ${\tau_g=-\frac{d\phi(\omega)}{d\omega}}$  
 
@@ -165,6 +166,10 @@ ${F_{\mathrm{total}}=F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2} + \frac
 - 初段の電力利得が十に高ければ2段目以降の回路の雑音指数の影響を受けにくくなる
 
 ■相互変調歪み(IMD: Inter Modulatation Distortion)  
+非線形な回路に2つ以上の異なる周波数の信号を入力すると、その和や差に対応する周波数成分が発生する
+
+3次相互変調(IM3)  
+${2f_1-f_2, 2f_2-f_1}$  
 
 ## デジタルフィルタ  
 FIRフィルタ(畳み込み): L＝タップ数,　h[k]=タップ係数(インパルス応答)
