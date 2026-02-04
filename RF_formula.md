@@ -38,7 +38,7 @@ ${Z_0=\sqrt{\frac{L}{C}}}$
 
 同軸線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
-ストリップ線路のインピーダンス  
+ストリップ線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))      
 
 反射係数  
@@ -142,7 +142,10 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 ・平衡線路と不平衡線路をつなげるとコモンモード電流(電流の同相成分)が励起されノイズの原因となる  
 ・ ${\Delta V_C=\Delta hV_N}$  
 
-デジタルフィルタ  
+ノイズ指数NF (Noise Figure):  
+入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF=入力のSN比[dB]-出力のSN比[dB])  
+
+## デジタルフィルタ  
 FIRフィルタ(畳み込み): L＝タップ数,　h[k]=タップ係数(インパルス応答)
 
 $$ 
@@ -191,6 +194,3 @@ DFE(Decision feedback equalizer):
 $$
 y[n] = x[n]-\sum_{k} d_k\hat{x}[n-k]
 $$  
-
-ノイズ指数NF (Noise Figure):  
-入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量 (NF=入力のSN比[dB]-出力のSN比[dB])  
