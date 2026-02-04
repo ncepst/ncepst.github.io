@@ -125,6 +125,7 @@ ${\tau_g=-\frac{d\phi(\omega)}{d\omega}}$
 
 結合線路の結合係数k    
 ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$  
+
 近端クロストーク　NEXT≈ $${k}$$  
 遠端クロストーク　FEXT≈ $${k \Delta v}$$   ( ${\Delta v = v_{even}-v_{odd}}$)  
 
@@ -135,7 +136,6 @@ ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$
 近端クロストーク　NEXT= ${\frac{1}{4}\left(\left|\frac{C_{12}}{C_{11}}\right|+\frac{L_{12}}{L_{11}}\right)}$  
 遠端クロストーク　FEXT= ${\frac{l}{T_r}\frac{T_d}{2}\left(\left|\frac{C_{12}}{C_{11}}\right|-\frac{L_{12}}{L_{11}}\right)}$  
 　(遅延時間 ${T_d=\sqrt{L_{11}C_{11}}}$,　立ち上がり時間 ${T_r}$ ,　配線長 ${l}$ )  
-
 
 ■4つの基本的な電磁結合メカニズム  
 ・伝導結合(共通インピーダンス結合)  
