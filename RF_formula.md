@@ -70,16 +70,18 @@ ${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$
 ${\tau=1+\Gamma}$  
 
 ■挿入損失(Insertion Loss)  
-電力の透過率(損失のない場合)  
+電力の透過率
+ポート1からポート2への透過パラメータ ${S_{21}}$  
+${\mathrm{IL[dB]}=-20 \log_{10}(\left|S_{21}\right|^2)}$  
+
+アンプのゲイン　${G \approx 20 log_{10}\left|S_{21}\right|}$  
+
+損失がない場合  
+${|S_{21}|^2+|S_{11}|^2=1}$  
 ${\mathrm{IL[dB]}=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
 ${T=1-\left|\Gamma \right|^2}$  
 
-Sパラメータ(損失のない場合)   
-ポート1からポート2への透過パラメータ ${S_{21}}$  
-${|S_{21}|^2+|S_{11}|^2=1}$  
-
-アンプのゲイン
-${G \approx 20 log_{10}\left|S_{21}\right|}$  
+  
 
 ■入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
