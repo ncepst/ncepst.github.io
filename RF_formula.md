@@ -67,7 +67,7 @@ ${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$
 
 ■透過率  
 電圧波の透過率  
-${/tau=1+\Gamma}$  
+${\tau=1+\Gamma}$  
 
 ■挿入損失(Insertion Loss)  
 電力の透過率(損失のない場合)  
