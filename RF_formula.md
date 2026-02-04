@@ -60,29 +60,6 @@ ${\mathrm{VSWR}=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$
 VSWRは1~∞の値となり、VSWR=1.5で損失は4%  
 (スミスチャートでは、円の下側に目盛がある)   
 
-■リターンロス(Return Loss)  
-${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=20 \log_{10} \left(\frac{VSWR+1}{VSWR-1}\right)}$  
-${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$  
-反射0でRL=-∞
-
-■透過率  
-電圧波の透過率  
-${\tau=1+\Gamma}$  
-
-■挿入損失(Insertion Loss)  
-電力の透過率  
-ポート1からポート2への透過パラメータ ${S_{21}}$  
-${\mathrm{IL[dB]}=-20 \log_{10}\left|S_{21}\right|}$  
-
-アンプのゲイン  
-${G \approx 20 \log_{10}\left|S_{21}\right|}$  
-
-*損失がない場合  
-${\left|S_{21}\right|^2+\left|S_{11}\right|^2=1}$  
-${\mathrm{IL[dB]}=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
-${T=1-\left|\Gamma \right|^2}$  
-
-  
 
 ■入力インピーダンス  
 ${Z_{in}=Z_0\frac{Z_L+Z_0tanh(\gamma l)}{Z_0+Z_Ltanh(\gamma l)}}$  
@@ -198,6 +175,28 @@ $$
 
 アンテナ理論から、有効開口面積: ${A_e=\frac{G_r \lambda^2}{4 \pi}}$ となり、  
 受信感度は ${\lambda^2}$ に比例する。
+
+■リターンロス(Return Loss)  
+${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=20 \log_{10} \left(\frac{VSWR+1}{VSWR-1}\right)}$  
+${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$  
+反射0でRL=-∞
+
+■透過率  
+電圧波の透過率  
+${\tau=1+\Gamma}$  
+
+■挿入損失(Insertion Loss)  
+電力の透過率  
+ポート1からポート2への透過パラメータ ${S_{21}}$  
+${\mathrm{IL[dB]}=-20 \log_{10}\left|S_{21}\right|}$  
+
+アンプのゲイン  
+${G \approx 20 \log_{10}\left|S_{21}\right|}$  
+
+*損失がない場合  
+${\left|S_{21}\right|^2+\left|S_{11}\right|^2=1}$  
+${\mathrm{IL[dB]}=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
+${T=1-\left|\Gamma \right|^2}$ 
 
 ■相互変調歪み(IMD: Inter Modulatation Distortion)  
 非線形な回路に2つ以上の異なる周波数の信号を入力すると、その和や差に対応する周波数成分が発生する
