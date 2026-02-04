@@ -70,7 +70,7 @@ ${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$
 ${\tau=1+\Gamma}$  
 
 ■挿入損失(Insertion Loss)  
-電力の透過率
+電力の透過率  
 ポート1からポート2への透過パラメータ ${S_{21}}$  
 ${\mathrm{IL[dB]}=-20 \log_{10}(\left|S_{21}\right|^2)}$  
 
