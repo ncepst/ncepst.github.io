@@ -293,10 +293,11 @@ y[n] = x[n]-\sum_{k} d_k\hat{x}[n-k]
 $$  
 
 ## 電磁界解析(EM解析)
-MoM(モーメント法):境界条件を元に積分方程式を解く  
-PEEC(Partial Element Equivalent Circuit):等価回路で考える    
-FEM(有限要素法)   
-FDTD(有限差分時間領域法)  
+- MoM(モーメント法):境界条件を元に積分方程式を解く  
+${導体表面の表面電流密度 J を未知量とし、導体表面の接線方向の電界 E_{tan}=0 を境界条件とした定常状態での解を求める}$
+- PEEC(Partial Element Equivalent Circuit):等価回路で考える    
+- FEM(有限要素法)   
+- FDTD(有限差分時間領域法)  
 
 
 [ホームに戻る](index.md)  
