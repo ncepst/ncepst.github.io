@@ -176,6 +176,10 @@ $$
 ・平衡線路と不平衡線路をつなげるとコモンモード電流(電流の同相成分)が励起されノイズの原因となる  
 ・ ${\Delta V_C=\Delta hV_N}$  
 
+■オペアンプ  
+${Vout=A_{diff}(V_＋-V_－)+A_{CM}\frac{(V_＋+V_－}{2}$
+${CMRR=\frac{A_{diff}}{A_{CM}}}$
+
 ## RFIC
 
 ■雑音指数NF (Noise Figure)  
