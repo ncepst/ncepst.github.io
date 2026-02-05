@@ -131,15 +131,15 @@ ${\tau_g=-\frac{d\phi(\omega)}{d\omega}}$
 結合線路の結合係数k    
 ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$  
 
-${近端クロストーク \mathrm{NEXT} \approx k}$  
-${遠端クロストーク \mathrm{FEXT} \approx k \Delta v}$   ( ${\Delta v = v_{even}-v_{odd}}$ )  
+${近端クロストーク:\mathrm{NEXT} \approx k}$  
+${遠端クロストーク:\mathrm{FEXT} \approx k \Delta v}$   ( ${\Delta v = v_{even}-v_{odd}}$ )  
 
 ${磁気結合係数: k_L=\frac{M}{\sqrt{L_1L_2}}　(-1≦k_L≦1)}$  
 ${容量結合係数: k_C=\frac{C_{12}}{\sqrt{C_1C_2}}　(0≦k_C<1)}$  
 
 対称線路では、 ${C_{11}=C_{22},　L_{11}=L_{22}}$ であり、  
-${近端クロストーク \mathrm{NEXT}= \frac{1}{4}\left(\left|\frac{C_{12}}{C_{11}}\right|+\frac{L_{12}}{L_{11}}\right)}$  
-${遠端クロストーク \mathrm{FEXT}= \frac{l}{T_r}\frac{T_d}{2}\left(\left|\frac{C_{12}}{C_{11}}\right|-\frac{L_{12}}{L_{11}}\right)}$  
+${近端クロストーク:\mathrm{NEXT}= \frac{1}{4}\left(\left|\frac{C_{12}}{C_{11}}\right|+\frac{L_{12}}{L_{11}}\right)}$  
+${遠端クロストーク:\mathrm{FEXT}= \frac{l}{T_r}\frac{T_d}{2}\left(\left|\frac{C_{12}}{C_{11}}\right|-\frac{L_{12}}{L_{11}}\right)}$  
 　(遅延時間 ${T_d=\sqrt{L_{11}C_{11}}}$,　立ち上がり時間 ${T_r}$ ,　配線長 ${l}$ )  
 
 ■4つの基本的な電磁結合メカニズム  
