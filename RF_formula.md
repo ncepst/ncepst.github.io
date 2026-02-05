@@ -202,7 +202,7 @@ ${G \approx 20 \log_{10}\left|S_{21}\right|}$
 *損失がない場合  
 ${\left|S_{21}\right|^2+\left|S_{11}\right|^2=1}$  
 ${\mathrm{IL[dB]}=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
-${T=1-\left|\Gamma \right|^2}$ 
+${T=1-\left|\Gamma \right|^2}$  
 
 ■相互変調歪み(IMD: Inter Modulatation Distortion)  
 非線形な回路に2つ以上の異なる周波数の信号を入力すると、その和や差に対応する周波数成分が発生する
@@ -261,7 +261,9 @@ $$
 
 注)
 - Z変換は畳み込みを掛け算に変える  
-- 微分方程式→ラプラス変換、差分方程式→Z変換  
+- 微分方程式→ラプラス変換、差分方程式→Z変換
+- ${z=e^{st}$ ラプラス領域は左平面で収束(安定)なのに対して、Z領域では ${単位円: \left|z\right|<1}$ で収束(安定)
+- 極が単位円上にあると安定になる。
 - Z変換は ${z^n}$ をLTI(線形・時不変)系の固有関数, ${H(z)}$ をその固有値とし、LTI系を対角化している  
 
 ■DFE(Decision feedback equalizer):  
