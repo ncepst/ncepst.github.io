@@ -142,6 +142,26 @@ ${近端クロストーク:\mathrm{NEXT}= \frac{1}{4}\left(\left|\frac{C_{12}}{C
 ${遠端クロストーク:\mathrm{FEXT}= \frac{l}{T_r}\frac{T_d}{2}\left(\left|\frac{C_{12}}{C_{11}}\right|-\frac{L_{12}}{L_{11}}\right)}$  
 　(遅延時間 ${T_d=\sqrt{L_{11}C_{11}}}$,　立ち上がり時間 ${T_r}$ ,　配線長 ${l}$ )  
 
+$$
+\mathbf{L} =
+\begin{pmatrix}
+L_{11} & L_{12} \\
+L_{12} & L_{22}
+\end{pmatrix}
+,\quad
+\mathbf{C} =
+\begin{pmatrix}
+C_{11} & -C_{12} \\
+-C_{12} & C_{22}
+\end{pmatrix}
+\quad
+(\mathbf{L} と \mathbf{C} は対称・正則行列)
+$$  
+
+$$
+W=\frac{1}{2}\mathbf{v}^T\mathbf{C}\mathbf{v}+\frac{1}{2}\mathbf{i}^T\mathbf{L}\mathbf{i}  
+$$
+
 ■4つの基本的な電磁結合メカニズム  
 ・伝導結合(共通インピーダンス結合)  
 ・電界結合(容量結合)  
