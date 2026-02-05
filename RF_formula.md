@@ -47,6 +47,7 @@ ${有効比誘電率 : \varepsilon_{\text{eff}} = \frac{\varepsilon_r + 1}{2} + 
 ${Z_0 = \frac{60}{\sqrt{\varepsilon_{\text{eff}}}} \ln\left( 8\frac{h}{W} + 0.25\frac{W}{h} \right)　　(W/h≦1の場合)}$  
 
 
+
 ■反射係数  
 ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$  
 スミスチャートでは原点からの距離が ${\left| \Gamma \right|}$  
