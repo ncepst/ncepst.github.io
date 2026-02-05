@@ -177,8 +177,9 @@ $$
 ・ ${\Delta V_C=\Delta hV_N}$  
 
 ■オペアンプ  
-${Vout=A_{diff}(V_+-V_-)+A_{CM}\frac{V_++V_-}{2}}$  
-${\mathrm{CMRR}=\frac{A_{diff}}{A_{CM}}}$
+${\mathrm{Vout}=A_{\mathrm{diff}}(V_+-V_-)+A_{\mathrm{CM}}\frac{V_++V_-}{2}}$  
+${\mathrm{CMRR}=\frac{A_{\mathrm{diff}}}{A_{\mathrm{CM}}}}$  
+${\mathrm{PSRR}=\frac{\Delta V_{CC}}{\Delta V_{out}}}$
 
 [RF公式2](RF_formula2.md)  
 
