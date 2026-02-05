@@ -177,7 +177,7 @@ $$
 ・ ${\Delta V_C=\Delta hV_N}$  
 
 ■オペアンプ  
-${Vout=A_{diff}(V_＋-V_－)+A_{CM}\frac{V_＋+V_－}{2}}$
+${Vout=A_{diff}(V_+-V_-)+A_{CM}\frac{V_++V_-}{2}}$  
 ${CMRR=\frac{A_{diff}}{A_{CM}}}$
 
 ## RFIC
