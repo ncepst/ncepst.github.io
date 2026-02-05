@@ -180,4 +180,4 @@ $$
 ${Vout=A_{diff}(V_+-V_-)+A_{CM}\frac{V_++V_-}{2}}$  
 ${CMRR=\frac{A_{diff}}{A_{CM}}}$
 
-[ホームに戻る](index.md)  
+[RF公式2](RF_formula2.md) 
