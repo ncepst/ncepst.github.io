@@ -43,7 +43,7 @@ ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体�
 ■ストリップ線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W (0.8+\frac{t}{w} ) }\right)　(信号線の幅W, 基板厚h(上下GND間の誘電体の厚み), 信号線の厚みt) }$　     
 ■マイクロストリップ線路の特性インピーダンス  
-${有効比誘電率 : \varepsilon_{\text{eff}} = \frac{\varepsilon_r + 1}{2} + \frac{\varepsilon_r - 1}{2} \left( \frac{1}{\sqrt{1 + 12\frac{h}{W}}} \right)}$  
+${有効比誘電率 : \varepsilon_{\text{eff}} = \frac{\varepsilon_r + 1}{2} + \frac{\varepsilon_r - 1}{2} \left(\frac{1}{\sqrt{1 + 12\frac{h}{W}}}\right)}$  
 ${Z_0 = \frac{60}{\sqrt{\varepsilon_{\text{eff}}}} \ln\left( 8\frac{h}{W} + 0.25\frac{W}{h} \right)　　(W/h≦1の場合)}$  
 
 
@@ -104,7 +104,7 @@ ${v_p=\frac{1}{\sqrt{\varepsilon_0 \mu_0}}=c}$
 ${n=\frac{c}{v_p}=\sqrt{\varepsilon_r \mu_r}}$  
 非磁性媒質での波動インピーダンス  
 ${Z=\sqrt{\frac{\mu_0}{\varepsilon}}=\frac{Z_0}{n}}$    
-垂直入射での光の反射率 (n ⇔ 1/Z)  
+垂直入射での光の反射率  ${(n ⇔ 1/Z)}$   
 ${R=\left(\frac{n_1-n_2}{n_1+n_2}\right)^2}$  
 
 ■ポインティングベクトル(平均電力密度)  
