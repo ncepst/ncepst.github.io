@@ -1,3 +1,15 @@
+## リンク
+- GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
+- Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
+
+## 記事
+- [RF公式1](RF_formula.md)
+- [RF公式2](RF_formula2.md)  
+- [L型マッチング回路](L_matching.md)
+- [シリアル通信](Serial_Comm.md)
+- [MOSFET](assets/pdf/MOSFET_1.pdf)
+- [トランス](assets/pdf/transformer.pdf)
+
 ## リポジトリ紹介
 
 ### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
@@ -10,10 +22,6 @@
 Python で手軽な自動化を実現するため、 Excel グラフの作成処理を関数化し、  
 何度も作成するエクセルグラフの体裁を一括に調整できる仕組みを目指しました。
 
-## リンク
-- GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
-- Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
-
 ## 経歴
 ～2022年： 修士 (電子工学・スピントロニクス)  
 2022年～： 光センサーの開発エンジニア
@@ -21,14 +29,6 @@ Python で手軽な自動化を実現するため、 Excel グラフの作成処
 ## 自己紹介
 社会人4年目。  
 電子回路や光学デバイスを中心に、個人学習として勉強中です。
-
-## 記事
-- [RF公式1](RF_formula.md)
-- [RF公式2](RF_formula2.md)  
-- [L型マッチング回路](L_matching.md)
-- [シリアル通信](Serial_Comm.md)
-- [MOSFET](assets/pdf/MOSFET_1.pdf)
-- [トランス](assets/pdf/transformer.pdf)
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
