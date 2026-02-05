@@ -41,7 +41,7 @@ ${位相定数: \beta=\omega \sqrt{LC}}$
 ■同軸線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
 ■ストリップ線路の特性インピーダンス  
-${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W}\right)}$　(信号線の幅W, 基板厚h(信号線とGNDの間の誘電体の厚み))      
+${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W (0.8+\frac{t}{w} ) }\right)}$　(信号線の幅W, 基板厚h(上下GND間の誘電体の厚み), 信号線の厚みt)      
 ■マイクロストリップ線路の特性インピーダンス  
 ${有効比誘電率 : \varepsilon_{\text{eff}} = \frac{\varepsilon_r + 1}{2} + \frac{\varepsilon_r - 1}{2} \left( \frac{1}{\sqrt{1 + 12\frac{h}{W}}} \right)}$  
 ${Z_0 = \frac{60}{\sqrt{\varepsilon_{\text{eff}}}} \ln\left( 8\frac{h}{W} + 0.25\frac{W}{h} \right)　　(W/h≦1の場合)}$  
@@ -111,7 +111,7 @@ ${\<S\>=\<E \times H\>=\frac{E_{\mathrm{rms}}^2}{Z}=\frac{GP}{4\pi r^2} [W/m^2]}
 Gはアンテナゲイン ${G(\theta, \phi)}$  
 
 ■物性値  
-Si 屈折率(光学領域):3.8～4.2(消衰係数kは波長により0～1, ${E_g=1.12 eV}$ ), 比誘電率(RF領域):11.7  
+Si 屈折率(光学領域):3.8～4.2( ${E_g=1.12 eV}$ :消衰係数kは波長により0～1), 比誘電率(RF領域):11.7  
 SiO2 屈折率(光学領域):1.46, 比誘電率(RF領域):3.8～4.0  
 Si3N4 屈折率(光学領域):2.00, 比誘電率(RF領域):7～8  
 イオン分極・双極子分極が RF では大きく寄与するため、比誘電率が大きくなる。  
