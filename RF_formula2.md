@@ -121,4 +121,8 @@ ${導体表面の表面電流密度 J と電荷を未知量とし、導体表面
 ${境界条件は、入射電界+放射電界=0 ⇒ 表面電流が作る電界が入射波を打ち消す E(J)=-E_{inc}}$  
 - PEEC(Partial Element Equivalent Circuit):等価回路で考える    
 - FEM(有限要素法)   
-- FDTD(有限差分時間領域法)  
+- FDTD(有限差分時間領域法)
+
+[RF公式1](RF_formula.md)  
+
+[ホームに戻る](index.md)  
