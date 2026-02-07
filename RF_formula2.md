@@ -1,4 +1,4 @@
-[RF公式1](RF_formula.md)  
+[高周波特性1](RF_formula.md)  
 
 ## RFIC
 
@@ -126,7 +126,7 @@ ${境界条件は、入射電界+放射電界=0 ⇒ 表面電流が作る電界�
 - FDTD(有限差分時間領域法)
 
 
-[RF公式1](RF_formula.md)  
+[高周波特性1](RF_formula.md)  
 [L型マッチング回路](L_matching.md)  
 
 [ホームに戻る](index.md)  
