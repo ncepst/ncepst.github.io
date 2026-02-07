@@ -3,8 +3,8 @@
 - Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
 ## 記事
-- [RF公式1](RF_formula.md)
-- [RF公式2](RF_formula2.md)  
+- [高周波特性1](RF_formula.md)
+- [高周波特性2](RF_formula2.md)  
 - [L型マッチング回路](L_matching.md)
 - [シリアル通信](Serial_Comm.md)
 - [MOSFET](assets/pdf/MOSFET_1.pdf)
