@@ -183,8 +183,8 @@ $$
 
 ■オペアンプ  
 ${\mathrm{Vout}=A_{\mathrm{diff}}(V_+-V_-)+A_{\mathrm{CM}}\frac{V_++V_-}{2}}$  
-${\mathrm{CMRR}=\frac{A_{\mathrm{diff}}}{A_{\mathrm{CM}}}}$  
-${\mathrm{PSRR}=\frac{\Delta V_{CC}}{\Delta V_{out}}}$
+${\mathrm{CMRR}(同相除去比)=\frac{A_{\mathrm{diff}}}{A_{\mathrm{CM}}}}$  
+${\mathrm{PSRR}(電源変動除去比)=\frac{\Delta V_{CC}}{\Delta V_{out}}}$
 
 [RF公式2](RF_formula2.md)  
 
