@@ -15,7 +15,7 @@
 ### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
 会社で Excel 自動化といえば、昔からある VBA が主流ですが、  
-Python にはデータ処理やその高速化にメリットがあることから、    
+Python にはデータ処理やその高速化にメリットがあり、    
 **見栄えの整った Excel グラフの出力までを Python で完結させたい**と考えていました。
 
 Python で手軽な自動化を実現するため、 Excel グラフの作成処理を関数化し、  
