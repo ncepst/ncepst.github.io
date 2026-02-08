@@ -16,7 +16,7 @@ $$
 
 誘導電流によって、右ねじの法則から磁場の変化を妨げる方向に磁場を発生させるように、誘導電流が流れる。
 
-[手書きメモ]((assets/pdf/transformer.pdf))
+[手書きメモ](assets/pdf/transformer.pdf)
 
 ### ON / OFF 時の違い
 ON 時と OFF 時では $\frac{d\Phi}{dt}$ の符号が反転するため、
