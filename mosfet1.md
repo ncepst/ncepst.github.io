@@ -8,7 +8,7 @@ $$ qN = C_{ox}(V_{GS} - V_{th}) 　- ①$$
 
 N-MOSの電流密度：
 
-$$ J = q N \mu_n E - ②$$
+$$ J = q N \mu_n E 　- ②$$
 
 チャネル電位分布 ${V(0)=0,　V(L)=V_{DS}}$
 
@@ -34,7 +34,7 @@ ${v=\mu E = \mu \frac{dV(x)}{dx}}$ が チャネル位置 ${x}$ に依存し、
 電流密度は  ${x=0}$ から ${x=L}$ までの積分と考えて、
 さらに、電流はW方向の電流密度を ${W}$ 倍した値であることから、
 
-$$ I_D = \mu_n C_{ox} \frac{W}{L} \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right] $$
+$$ I_D = \mu_n C_{ox} \frac{W}{L} \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right]   　- ⑤$$
 
 もしくは単に④式の両辺を ${x=0}$ から ${x=L}$ までの積分しても求まる。
 
@@ -42,7 +42,9 @@ ${\beta_n = \mu_n C_{ox} \frac{W}{L}}$ とおくと、
 
 $$ I_D = \beta_n \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right] $$
 
-飽和領域
+${I_D}$ が ${V_{DS}}$ について飽和する条件： ${\frac{\partial I_D}{\partial V_{DS}=0}$ から、  
+⑤式の両辺を ${V_{DS}}$ で微分して0となる条件から、  
+$$ V_{GS}-V_{th}-V_{DS}=0    　- ⑥$$
 
 ピンチオフ条件：
 
@@ -50,7 +52,17 @@ $$ V_{DSsat} = V_{GS} - V_{th} $$
 
 飽和電流：
 
-$$ I_{Dsat} = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
+$$ I_{Dsat} = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2$$
+$$ I_{Dsat} = \frac{\beta_n}{2} (V_{GS}-V_{th})^2   　- ⑥$$
+
+ドレイン電流 ${I_D}$を流すために必要な ${V_{gs}}$ ：
+
+$$ V_{GS}=V_{th} + \sqrt{\frac{2I_D}{\beta}}    　- ⑦$$
+
+これは閾値電圧 ${V_{th}}$ に加えて ${I_D}$ に依存したオーバードライブ電圧 ${\Delta_ov=\sqrt{\frac{2I_D}{\beta}}}$ をゲートに加えると考えると、
+
+$$ V_{GS}=V_{th}+\Delta_{ov} $$
+$$ V_{DS} = \Delta_{ov} $$
 
 チャネル長変調を含めると：
 
