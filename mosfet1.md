@@ -43,22 +43,20 @@ ${\beta_n = \mu_n C_{ox} \frac{W}{L}}$ とおくと、
 $$ I_D = \beta_n \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right] $$
 
 ${I_D}$ が ${V_{DS}}$ について飽和する条件： ${\frac{\partial I_D}{\partial V_{DS}}=0}$ から、  
-⑤式の両辺を ${V_{DS}}$ で微分して0となるため、
-
-$$ V_{GS}-V_{th}-V_{DS}=0    　- ⑥$$  
+ピンチオフとなる条件が、⑤式の両辺を ${V_{DS}}$ で微分して0であるため、
 
 ピンチオフ条件：
 
-$$ V_{DSsat} = V_{GS} - V_{th} $$
+$$ V_{DSsat} = V_{GS} - V_{th}   　- ⑥$$
 
 飽和電流：
 
 $$ I_{Dsat} = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2$$
-$$ I_{Dsat} = \frac{\beta_n}{2} (V_{GS}-V_{th})^2   　- ⑥$$
+$$ I_{Dsat} = \frac{\beta_n}{2} (V_{GS}-V_{th})^2   　- ⑦$$
 
 ドレイン電流 ${I_D}$を流すために必要な ${V_{gs}}$ ：
 
-$$ V_{GS}=V_{th} + \sqrt{\frac{2I_D}{\beta}}    　- ⑦$$
+$$ V_{GS}=V_{th} + \sqrt{\frac{2I_D}{\beta}}    　- ⑧$$
 
 これは閾値電圧 ${V_{th}}$ に加えて ${I_D}$ に依存したオーバードライブ電圧 ${\Delta_ov=\sqrt{\frac{2I_D}{\beta}}}$ をゲートに加えると考えると、
 
