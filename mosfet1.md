@@ -87,6 +87,6 @@ $$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
 
 等価抵抗 
 
-$$ r_d =　\frac{\partial V_{DS}}{\partial I_D}=\frac{\partial V_{GS}}{\partial I_D}=1/g_m $$
+$$ r_d = \frac{\partial V_{DS}}{\partial I_D}=\frac{\partial V_{GS}}{\partial I_D}=1/g_m $$
 
 [手書きメモ](assets/pdf/MOSFET_1.pdf)
