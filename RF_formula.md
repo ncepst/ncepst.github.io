@@ -1,4 +1,4 @@
-# RF公式
+# 高周波特性
 
 ■表皮深さ(skin depth)  
 ${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$  
