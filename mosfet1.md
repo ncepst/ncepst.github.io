@@ -34,7 +34,7 @@ ${v=\mu E = \mu \frac{dV(x)}{dx}}$ が チャネル位置 ${x}$ に依存し、
 電流密度は  ${x=0}$ から ${x=L}$ までの積分と考えて、
 さらに、電流はW方向の電流密度を ${W}$ 倍した値であることから、
 
-$$ I = \mu_n C_{ox} \frac{W}{L} \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right] $$
+$$ I_D = \mu_n C_{ox} \frac{W}{L} \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right] $$
 
 もしくは単に④式の両辺を ${x=0}$ から ${x=L}$ までの積分しても求まる。
 
