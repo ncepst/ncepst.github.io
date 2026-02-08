@@ -7,7 +7,7 @@
 - [高周波特性2](RF_formula2.md)  
 - [L型マッチング回路](L_matching.md)
 - [シリアル通信](Serial_Comm.md)
-- [MOSFET](mosfet1.md)
+- [MOSFETの基礎](mosfet1.md)
 - [トランス](transformer.md)
 
 ## リポジトリ紹介
