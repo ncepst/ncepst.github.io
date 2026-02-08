@@ -79,7 +79,7 @@ $$ g_m = \frac{\partial I_D}{\partial V_{GS}} = \mu_n C_{ox} \frac{W}{L}(V_{GS}-
 
 $$ g_m = \sqrt{2\mu_n C_{ox}\frac{W}{L} I_D} $$
 
-ダイオード接続 MOSFET
+MOSFETのダイオード接続 
 
 ゲートとドレインを接続すると ${V_{GS} = V_{DS}}$ となり、
 
