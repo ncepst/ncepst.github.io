@@ -8,7 +8,7 @@
 - [L型マッチング回路](L_matching.md)
 - [シリアル通信](Serial_Comm.md)
 - [MOSFET](mosfet1.md)
-- [トランス](assets/pdf/transformer.pdf)
+- [トランス](transformer.md)
 
 ## リポジトリ紹介
 
