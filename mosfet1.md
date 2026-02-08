@@ -38,9 +38,9 @@ $$ I_D = \mu_n C_{ox} \frac{W}{L} \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS
 
 もしくは単に④式の両辺を ${x=0}$ から ${x=L}$ までの積分しても求まる。
 
-線形領域の電流式：
+${\beta_n = \mu_n C_{ox} \frac{W}{L}}$ とおくと、
 
-$$ I_D = \mu_n C_{ox} \frac{W}{L} \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right] $$
+$$ I_D = \beta_n \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right] $$
 
 飽和領域
 
