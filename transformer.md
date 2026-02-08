@@ -16,13 +16,16 @@ $$
 
 誘導電流によって、右ねじの法則から磁場の変化を妨げる方向に磁場を発生させるように、誘導電流が流れる。
 
-<img src="images/transformer1.png"
+<p align="center">
+  <img src="images/transformer1.png"
+     alt="巻き始め点と電流方向"
+     width="400"
+     style="margin-right:20px;">
+  <img src="images/transformer2.png"
      alt="巻き始め点と電流方向"
      width="400">
+</p>
 
-<img src="images/transformer2.png"
-     alt="巻き始め点と電流方向"
-     width="400">
 
 逆起電力、誘導起電力は●印に対して、同じ向きとなる。  
 
