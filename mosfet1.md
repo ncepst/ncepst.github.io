@@ -42,9 +42,10 @@ ${\beta_n = \mu_n C_{ox} \frac{W}{L}}$ とおくと、
 
 $$ I_D = \beta_n \left[(V_{GS}-V_{th})V_{DS} - \frac{1}{2}V_{DS}^2\right] $$
 
-${I_D}$ が ${V_{DS}}$ について飽和する条件： ${\frac{\partial I_D}{\partial V_{DS}=0}$ から、  
-⑤式の両辺を ${V_{DS}}$ で微分して0となる条件から、  
-$$ V_{GS}-V_{th}-V_{DS}=0    　- ⑥$$
+${I_D}$ が ${V_{DS}}$ について飽和する条件： ${\frac{\partial I_D}{\partial V_{DS}}=0}$ から、  
+⑤式の両辺を ${V_{DS}}$ で微分して0となるため、
+
+$$ V_{GS}-V_{th}-V_{DS}=0    　- ⑥$$  
 
 ピンチオフ条件：
 
