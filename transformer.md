@@ -29,3 +29,7 @@ $$
 ### ON / OFF 時の違い
 ON 時と OFF 時では $\frac{d\Phi}{dt}$ の符号が反転するため、
 起電力の向きも反転する。
+
+<img src="images/transformer3.png"
+     alt="巻き始め点と電流方向"
+     width="400">
