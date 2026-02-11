@@ -71,21 +71,30 @@ $$ V_{DS} = \Delta_{ov} $$
 
 $$ I_D = I_{Dsat}(1 + \lambda V_{DS}) $$
 
+MOSFETの等価回路は電圧制御電流源(トランスコンダクタンス ${g_m}$ と抵抗の並列回路となる。  
+
 トランスコンダクタンス
 
 相互コンダクタンス：
 
 $$ g_m = \frac{\partial I_D}{\partial V_{GS}} = \mu_n C_{ox} \frac{W}{L}(V_{GS}-V_{th}) $$
 
-$$ g_m = \frac{\partial I_D}{\partial V_{GS}} = \beta (V_{GS}-V_{th}) = \sqrt{2 \beta I_D} $$
-
 飽和領域では：
 
-$$ g_m = \sqrt{2\mu_n C_{ox}\frac{W}{L} I_D} $$
+$$ g_m = \beta (V_{GS}-V_{th}) = \sqrt{2 \beta I_D} = \sqrt{2\mu_n C_{ox}\frac{W}{L} I_D} $$
+
+並列抵抗 ${r_D}$ はチャネル長変調により ${r_D \neq \infty}$ となり、
+
+$$ r_D=1 / \frac{\partial I_{DS}}{\partial V_{DS}} $$
+
+$$ \frac{\partial I_{DS}}{\partial V_{DS}}= \lambda I_{D} $$ 
+
+$$ r_D=\frac{1}{\lambda I_{D}} $$ 
 
 MOSFETのダイオード接続 
 
-ゲートとドレインを接続すると ${V_{GS} = V_{DS}}$ となり、
+ゲートとドレインを接続すると ${V_{GS} = V_{DS}}$ となり、  
+${V_{DS}>V_{GS}-V_{th}}$ を満たすの、飽和領域となる。
 
 $$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
 
