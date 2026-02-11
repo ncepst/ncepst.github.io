@@ -240,14 +240,8 @@ $$
 多変数ニュートン法は
 
 $$
-\mathbf{V}_{\text{new}}
-=
-\mathbf{V}
--
-\mathbf{J}^{-1} F(\mathbf{V})
+\mathbf{V}_{\text{new}} = \mathbf{V} - \mathbf{J}^{-1} F(\mathbf{V})
 $$
-
-で与えられる。
 
 ここで
 
