@@ -52,6 +52,7 @@ $$ V_{DSsat} = V_{GS} - V_{th}   　- ⑥$$
 飽和電流：
 
 $$ I_{Dsat} = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2$$
+
 $$ I_{Dsat} = \frac{\beta_n}{2} (V_{GS}-V_{th})^2   　- ⑦$$
 
 ドレイン電流 ${I_D}$を流すために必要な ${V_{gs}}$ ：
@@ -63,6 +64,7 @@ ${\Delta_{ov}=\sqrt{\frac{2I_D}{\beta}}}$
 をゲートに加えると説明でき、以下の式となる。  
 
 $$ V_{GS}=V_{th}+\Delta_{ov} $$
+
 $$ V_{DS} = \Delta_{ov} $$
 
 チャネル長変調を含めると：
