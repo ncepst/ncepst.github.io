@@ -77,7 +77,7 @@ $$ I_D = I_{Dsat}(1 + \lambda V_{DS}) $$
 
 $$ g_m = \frac{\partial I_D}{\partial V_{GS}} = \mu_n C_{ox} \frac{W}{L}(V_{GS}-V_{th}) $$
 
-$$ g_m = \frac{\partial I_D}{\partial V_{GS}} = \beta (V_{GS}-V_{th}) = \sqrt{2 /beta I_D} $$
+$$ g_m = \frac{\partial I_D}{\partial V_{GS}} = \beta (V_{GS}-V_{th}) = \sqrt{2 \beta I_D} $$
 
 飽和領域では：
 
