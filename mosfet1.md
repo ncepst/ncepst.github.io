@@ -71,7 +71,7 @@ $$ V_{DS} = \Delta_{ov} $$
 
 $$ I_D = I_{Dsat}(1 + \lambda V_{DS}) $$
 
-MOSFETの等価回路は電圧制御電流源(トランスコンダクタンス ${g_m}$ と抵抗の並列回路となる。  
+MOSFETの等価回路は電圧制御電流源(トランスコンダクタンス ${g_m}$ と出力抵抗の並列回路となる。  
 
 トランスコンダクタンス
 
@@ -83,13 +83,13 @@ $$ g_m = \frac{\partial I_D}{\partial V_{GS}} = \mu_n C_{ox} \frac{W}{L}(V_{GS}-
 
 $$ g_m = \beta (V_{GS}-V_{th}) = \sqrt{2 \beta I_D} = \sqrt{2\mu_n C_{ox}\frac{W}{L} I_D} $$
 
-並列抵抗 ${r_D}$ はチャネル長変調により ${r_D \neq \infty}$ となり、
+出力抵抗 ${r_o}$ はチャネル長変調により ${r_o \neq \infty}$ となり、
 
-$$ r_D=1 / \frac{\partial I_{DS}}{\partial V_{DS}} $$
+$$ r_o=1 / \frac{\partial I_{DS}}{\partial V_{DS}} $$
 
 $$ \frac{\partial I_{DS}}{\partial V_{DS}}= \lambda I_{D} $$ 
 
-$$ r_D=\frac{1}{\lambda I_{D}} $$ 
+$$ r_o=\frac{1}{\lambda I_{D}} $$ 
 
 MOSFETのダイオード接続 
 
@@ -98,10 +98,12 @@ ${V_{DS}>V_{GS}-V_{th}}$ を満たすの、飽和領域となる。
 
 $$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
 
-等価抵抗 
+電圧制御電流源は等価抵抗になる 
 
 $$ r_d = \frac{\partial V_{DS}}{\partial I_D}=\frac{\partial V_{GS}}{\partial I_D}= \frac{1}{g_m} $$
 
 $$ g_m = \frac{2I_D}{V_{GS}-V_{th}}$$
+
+ダイオード接続では、この等価抵抗と出力抵抗 ${r_o}$ の並列回路 ${\frac{1}{g_m} // r_o}$ となる。
 
 [手書きメモ](assets/pdf/MOSFET_1.pdf)
