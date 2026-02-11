@@ -104,6 +104,6 @@ $$ r_d = \frac{\partial V_{DS}}{\partial I_D}=\frac{\partial V_{GS}}{\partial I_
 
 $$ g_m = \frac{2I_D}{V_{GS}-V_{th}}$$
 
-ダイオード接続では、この等価抵抗と出力抵抗 ${r_o}$ の並列回路 ${\frac{1}{g_m} // r_o = r_o　(r_o >> \frac{1}{g_m}) }$ となる。
+ダイオード接続では、この等価抵抗と出力抵抗 ${r_o}$ の並列回路 ${\frac{1}{g_m} // r_o = \frac{1}{g_m}　　(r_o >> \frac{1}{g_m}) }$ となる。
 
 [手書きメモ](assets/pdf/MOSFET_1.pdf)
