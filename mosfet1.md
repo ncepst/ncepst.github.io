@@ -91,6 +91,10 @@ $$ \frac{\partial I_{DS}}{\partial V_{DS}}= \lambda I_{D} $$
 
 $$ r_o=\frac{1}{\lambda I_{D}} $$ 
 
+電圧利得は、負荷のドレイン抵抗 ${r_D}$ に依存し、
+
+$$ A_v = - g_m (R_o // R_D) $$
+
 MOSFETのダイオード接続 
 
 ゲートとドレインを接続すると ${V_{GS} = V_{DS}}$ となり、  
@@ -100,7 +104,7 @@ $$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
 
 ダイオード接続では、電圧制御電流源は等価抵抗に置き換わる
 
-$$ r_d = \frac{\partial V_{DS}}{\partial I_D}=\frac{\partial V_{GS}}{\partial I_D}= \frac{1}{g_m} $$
+$$ r_{eqv} = \frac{\partial V_{DS}}{\partial I_D}=\frac{\partial V_{GS}}{\partial I_D}= \frac{1}{g_m} $$
 
 $$ g_m = \frac{2I_D}{V_{GS}-V_{th}}$$
 
