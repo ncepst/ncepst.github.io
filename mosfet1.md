@@ -98,12 +98,12 @@ ${V_{DS}>V_{GS}-V_{th}}$ を満たすの、飽和領域となる。
 
 $$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
 
-電圧制御電流源は等価抵抗になる 
+ダイオード接続では、電圧制御電流源は等価抵抗に置き換わる
 
 $$ r_d = \frac{\partial V_{DS}}{\partial I_D}=\frac{\partial V_{GS}}{\partial I_D}= \frac{1}{g_m} $$
 
 $$ g_m = \frac{2I_D}{V_{GS}-V_{th}}$$
 
-ダイオード接続では、この等価抵抗と出力抵抗 ${r_o}$ の並列回路 ${\frac{1}{g_m} // r_o}$ となる。
+ダイオード接続では、この等価抵抗と出力抵抗 ${r_o}$ の並列回路 ${\frac{1}{g_m} // r_o = r_o　(r_o >> \frac{1}{g_m}) }$ となる。
 
 [手書きメモ](assets/pdf/MOSFET_1.pdf)
