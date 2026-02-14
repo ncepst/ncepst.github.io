@@ -9,8 +9,10 @@
 ### PyExcelTools
 
 Pythonで、エクセルグラフを書式設定も含めて作成するモジュールです。  
+
 分析データをエクセルへ出力した後、エクセルグラフの作成だけでなく体裁調整までを、    
-Pythonで自動化する際に汎用的に使えるモジュールです。
+Pythonで自動化する際に汎用的に使えるモジュールです。  
+任意引数が多量にありますが、繰り返し同じグラフを作成する際には便利です。  
 
 [https://github.com/ncepst/PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
