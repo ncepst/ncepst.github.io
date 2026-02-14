@@ -1,4 +1,8 @@
-### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
+## リンク
+- GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
+- Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
+
+## [PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
 Pythonによるエクセルグラフ書式設定モジュールです。  
 **見栄えの整った Excel グラフの出力までを Python で完結すること**を目指して、  
@@ -15,9 +19,7 @@ Pythonで一括で行うために必要なモジュールとなります。
 - [MOSFETの基礎](mosfet1.md)
 - [トランス](transformer.md)
 
-## リンク
-- GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
-- Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
+
 
 
 ## 経歴
