@@ -1,4 +1,5 @@
 ## リンク
+
 - GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
 - Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
@@ -7,6 +8,8 @@
 Pythonによるエクセルグラフ書式設定モジュールです。  
 分析したデータをエクセルへ出力した後、エクセルグラフの作成と体裁調整までを、    
 Pythonで自動化する際に汎用的に使えるモジュールです。
+
+
 
 ## 記事
 - [高周波特性1](RF_formula.md)
