@@ -1,6 +1,11 @@
-## リンク
-- GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
-- Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
+### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
+
+Pythonによるエクセルグラフ書式設定モジュールです。  
+**見栄えの整った Excel グラフの出力までを Python で完結すること**を目指して、  
+汎用的に使えるエクセルグラフ作成モジュールを公開しています。  
+
+データ分析、エクセルへの出力、グラフの体裁調整まで、  
+Pythonで一括で行うために必要なモジュールとなります。
 
 ## 記事
 - [高周波特性1](RF_formula.md)
@@ -10,16 +15,10 @@
 - [MOSFETの基礎](mosfet1.md)
 - [トランス](transformer.md)
 
-## リポジトリ紹介
+## リンク
+- GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
+- Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)
 
-### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
-
-Pythonによるエクセルグラフ書式設定モジュールです。  
-**見栄えの整った Excel グラフの出力までを Python で完結すること**を目指して、  
-汎用的に使えるエクセルグラフ作成モジュールを公開しています。  
-
-データ分析、エクセルへの出力、グラフの体裁調整まで、  
-Pythonで一括で行うために必要なモジュールとなります。
 
 ## 経歴
 ～2022年： 修士 (電子工学・スピントロニクス)  
