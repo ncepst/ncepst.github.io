@@ -47,7 +47,7 @@ $$
 \Delta I_{\text{diff}} = g_m v_d
 $$
 
-片側に現れる電流変化（OPAMP で重要）
+片側に現れる電流変化
 
 $$
 \Delta I = \frac{1}{2} g_m v_d
