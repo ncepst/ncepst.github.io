@@ -242,4 +242,4 @@ $$
 
 [ホームに戻る](index.md)
 
-[スイッチング電源1](switchin1.md)
+[スイッチング電源1](switching1.md)
