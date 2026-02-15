@@ -6,15 +6,13 @@
 
 ## リポジトリ紹介
 
-### PyExcelTools
+### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
 Pythonで、エクセルグラフの書式設定を指定してグラフ作成するモジュールです。  
 
 分析データをエクセルへ出力した後、体裁調整したエクセルグラフ出力までを、    
 Pythonで自動化する際に汎用的に使えるモジュールです。  
 任意引数が多いですが、同じグラフを繰り返し作成する際には便利です。  
-
-[https://github.com/ncepst/PyExcelTools](https://github.com/ncepst/PyExcelTools)
 
 ## 記事
 - [高周波特性1](RF_formula.md)
