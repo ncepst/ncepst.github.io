@@ -25,6 +25,7 @@ Pythonで自動化する際に汎用的に使えるモジュールです。
 - [オペアンプ回路](OPAMP1.md)
 - [スイッチング電源1](switching1.md)
 - [スイッチング電源2](switching2.md)
+- [受動部品](passive_component.md)
 - [トランス](transformer.md)
 
 ## 経歴
