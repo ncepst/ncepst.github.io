@@ -310,23 +310,17 @@ $$
 ### まとめ
 
 - 低周波利得
-
-  $$
-  A_0 \approx g_m r_o
-  $$
+- 
+  ${A_0 \approx g_m r_o}$
   
 - 支配極
 
-  $$
-  f_p \approx \frac{1}{2\pi r_o C}
-  $$
+  ${f_p \approx \frac{1}{2\pi r_o C}}$
 
 - ゲイン帯域積
 
-  $$
-  GBW \approx \frac{g_m}{2\pi C}
-  $$
+  ${ GBW \approx \frac{g_m}{2\pi C} }$
 
-GBW は「$g_m$ によって容量をどれだけ速く動かせるか」を表す指標であり，
+GBW は「${g_m}$ によって容量をどれだけ速く動かせるか」を表す指標であり，
 アナログ回路設計における重要な性能指標の一つである。
 
