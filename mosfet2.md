@@ -57,7 +57,7 @@ $$
 したがって ${ W }$ を大きくして ${ C }$ が増加すると，
 
 $$
-C \uparrow \;\Rightarrow\; f_p \downarrow
+C \uparrow \Rightarrow f_p \downarrow
 $$
 
 となり，極は低周波側へ移動する。
