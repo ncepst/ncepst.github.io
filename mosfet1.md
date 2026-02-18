@@ -96,18 +96,18 @@ ${g_m}がV_{GS}に依存して変わるが、v_{gs}(t)=V_{GS}+v_{gs}の入力に
 
 $$ A_v = - g_m (r_o // R_D) $$
 
+$$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
+
+$$ g_m = \frac{\partial I_D}{\partial V_{GS}}=\frac{2I_D}{V_{GS}-V_{th}}=\frac{2I_D}{V_{OV}}$$
+
 MOSFETのダイオード接続 
 
 ゲートとドレインを接続すると ${V_{GS} = V_{DS}}$ となり、  
 ${V_{DS}>V_{GS}-V_{th}}$ を満たすの、飽和領域となる。
 
-$$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
-
 ダイオード接続では、電圧制御電流源は等価抵抗に置き換わる
 
 $$ r_{eqv} = \frac{\partial V_{DS}}{\partial I_D}=\frac{\partial V_{GS}}{\partial I_D}= \frac{1}{g_m} $$
-
-$$ g_m = \frac{2I_D}{V_{GS}-V_{th}}$$
 
 ダイオード接続では、この等価抵抗と出力抵抗 ${r_o}$ の並列回路 ${\frac{1}{g_m} // r_o = \frac{1}{g_m}　(r_o >> \frac{1}{g_m}) }$ となる。
 
