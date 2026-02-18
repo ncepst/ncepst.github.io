@@ -60,7 +60,9 @@ $$ I_{Dsat} = \frac{\beta_n}{2} (V_{GS}-V_{th})^2   　- ⑦$$
 $$ V_{GS}=V_{th} + \sqrt{\frac{2I_D}{\beta}}    　- ⑧$$
 
 これは閾値電圧 ${V_{th}}$ に加えて ${I_D}$ に依存したオーバードライブ電圧：  
-${\Delta_{ov}=\sqrt{\frac{2I_D}{\beta}}}$   
+
+$$ \Delta_{ov}=\sqrt{\frac{2I_D}{\beta}} = V_{GS}-V{th} $$   
+
 をゲートに加えると説明でき、以下の式となる。  
 
 $$ V_{GS}=V_{th}+\Delta_{ov} $$
