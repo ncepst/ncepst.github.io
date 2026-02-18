@@ -9,16 +9,36 @@
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
         displayMath: [['$$', '$$'], ['\\[', '\\]']],
+
+        // 自作マクロ
         macros: {
-          // 添字を立体にするためのマクロ
           s: ['_{\\mathrm{#1}}', 1]
-        }
+        },
+
+        // エラー時も止めない（重要）
+        processEscapes: true
+      },
+
+      options: {
+        // Markdown の code / pre / script は数式処理しない
+        skipHtmlTags: [
+          'script', 'noscript', 'style',
+          'textarea', 'pre', 'code'
+        ],
+
+        // クラス指定で MathJax 無効化も可能
+        ignoreHtmlClass: 'tex-ignore',
+        processHtmlClass: 'tex-process'
       }
     };
   </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    async>
+  </script>
 </head>
+
 <body>
   {{ content }}
 </body>
