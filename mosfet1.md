@@ -81,7 +81,11 @@ $$ g_m = \frac{\partial I_D}{\partial V_{GS}} = \mu_n C_{ox} \frac{W}{L}(V_{GS}-
 
 飽和領域では：
 
+$$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
+
 $$ g_m = \beta (V_{GS}-V_{th}) = \sqrt{2 \beta I_D} = \sqrt{2\mu_n C_{ox}\frac{W}{L} I_D} $$
+
+$$ g_m = \frac{\partial I_D}{\partial V_{GS}}=\frac{2I_D}{V_{GS}-V_{th}}=\frac{2I_D}{V_{OV}}$$
 
 出力抵抗 ${r_o}$ はチャネル長変調により ${r_o \neq \infty}$ となり、
 
@@ -95,10 +99,6 @@ $$ r_o=\frac{1}{\lambda I_{D}} $$
 ${g_m}がV_{GS}に依存して変わるが、v_{gs}(t)=V_{GS}+v_{gs}の入力に対する出力電流I_D+i_d で、i_d=g_m v_{gs}$ と考えて、
 
 $$ A_v = - g_m (r_o // R_D) $$
-
-$$ I_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(V_{GS}-V_{th})^2 $$
-
-$$ g_m = \frac{\partial I_D}{\partial V_{GS}}=\frac{2I_D}{V_{GS}-V_{th}}=\frac{2I_D}{V_{OV}}$$
 
 MOSFETのダイオード接続 
 
