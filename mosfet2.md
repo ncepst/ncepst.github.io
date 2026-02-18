@@ -402,9 +402,7 @@ $$
 支配極を駆動する段の ${ g_{m1} }$ は，
 
 $$
-g_{m1}
-\approx
-2 \pi C_c \, GBW_{\mathrm{target}}
+g_{m1} \approx 2 \pi C_c \, GBW_{\mathrm{target}}
 $$
 
 から求める。
@@ -794,7 +792,7 @@ $$
 - ${ r_o }$ の変動
 
 により，
-${ g_m }$，GBW，SR，位相余裕が変動する。
+${ g_m }$ ，GBW，SR，位相余裕が変動する。
 
 そのため実務では，
 PVT（ Process，Voltage，Temperature ）での角ケース検証を行う。
