@@ -61,7 +61,7 @@ $$ V_{GS}=V_{th} + \sqrt{\frac{2I_D}{\beta}}    　- ⑧$$
 
 これは閾値電圧 ${V_{th}}$ に加えて ${I_D}$ に依存したオーバードライブ電圧：  
 
-$$ \Delta_{ov}=\sqrt{\frac{2I_D}{\beta}} = V_{GS}-V{th} $$   
+$$ \Delta_{ov}=\sqrt{\frac{2I_D}{\beta}} = V_{GS}-V_{th} $$   
 
 をゲートに加えると説明でき、以下の式となる。  
 
