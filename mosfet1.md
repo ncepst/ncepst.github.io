@@ -261,7 +261,7 @@ GBW \equiv f_u
 = (g_m r_o)\cdot\frac{1}{2\pi r_o C}
 $$
 
-となり，${r_o}$ が消えて
+となり， ${r_o}$ が消えて
 
 $$
 \boxed{
