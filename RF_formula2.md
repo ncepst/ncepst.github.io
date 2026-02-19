@@ -27,7 +27,7 @@ $$
 アンテナ理論から、有効開口面積: ${A_e=\frac{G_r \lambda^2}{4 \pi}}$ となり、  
 受信感度は ${\lambda^2}$ に比例する。
 
-■リターンロス(Return Loss)  
+■リターンロス（Return Loss）  
 ${\mathrm{RL[dB]}=-20 \log_{10} \left| \Gamma \right|=20 \log_{10} \left(\frac{VSWR+1}{VSWR-1}\right)}$  
 ${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$  
 反射0でRL=-∞
