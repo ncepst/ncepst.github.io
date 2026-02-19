@@ -810,3 +810,4 @@ PVT（ Process，Voltage，Temperature ）での角ケース検証を行う。
 - 実シリコンでは寄生と短チャネルで「だいたい悪化する」ので，
   マージン込みの設計と PVT 検証が必須である  
 
+[ver2](mosfet2-2.md)
