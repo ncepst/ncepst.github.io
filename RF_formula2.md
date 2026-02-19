@@ -2,8 +2,8 @@
 
 ## RFIC
 
-■雑音指数NF (Noise Figure)  
-入力にSN比(dB)に対して、出力のSN比(dB)がどの程度低下するかを示す量  
+■雑音指数NF （Noise Figure）  
+入力にSN比（dB）に対して、出力のSN比（dB）がどの程度低下するかを示す量  
 
 $$
 \begin{aligned}
@@ -36,7 +36,7 @@ ${\mathrm{RL[dB]}=-20 \log_{10} \left| S_{11} \right|}$
 電圧波の透過率  
 ${\tau=1+\Gamma}$  
 
-■挿入損失(Insertion Loss)  
+■挿入損失（Insertion Loss）  
 電力の透過率  
 ポート1からポート2への透過パラメータ ${S_{21}}$  
 ${\mathrm{IL[dB]}=-20 \log_{10}\left|S_{21}\right|}$  
@@ -49,11 +49,11 @@ ${\left|S_{21}\right|^2+\left|S_{11}\right|^2=1}$
 ${\mathrm{IL[dB]}=-10 \log_{10}(1-\left|\Gamma \right|^2)}$  
 ${T=1-\left|\Gamma \right|^2}$  
 
-■相互変調歪み(IMD: Inter Modulatation Distortion)  
+■相互変調歪み（IMD: Inter Modulatation Distortion）  
 非線形な回路に2つ以上の異なる周波数の信号を入力すると、その和や差に対応する周波数成分が発生する  
 2次歪み、3次歪み など
 
-3次相互変調歪み(IM3)  
+3次相互変調歪み（IM3）  
 ${2f_1-f_2,　2f_2-f_1}$  
 
 アンプの入力電力[dBm]vs出力電力[dBm]を考えたとき、
@@ -66,13 +66,13 @@ ${2f_1-f_2,　2f_2-f_1}$
 信号の瞬時位相が時間とともに乱れ、キャリア周辺のスペクトルにサイドバンドとして現れる雑音成分  
 
 ## デジタルフィルタ  
-■FIRフィルタ(畳み込み): L＝タップ数,　h[k]=タップ係数(インパルス応答)
+■FIRフィルタ（畳み込み）: L＝タップ数,　h[k]=タップ係数（インパルス応答）
 
 $$ 
 y[n] = \sum_{k=0}^{L-1} h[k]x[n-k]  
 $$
 
-Z変換(伝達関数)
+Z変換（伝達関数）
 
 $$
 Y(z)=H(z)X(z), \qquad
@@ -89,7 +89,7 @@ $$
 振幅特性: ${\left|H(e^{j\omega})\right|}$  
 位相特性: ${\angle(H(e^{j\omega}))}$  
 
-■IIRフィルタ(フィードバックあり): 
+■IIRフィルタ（フィードバックあり）: 
 
 $$
 y[n] = \sum_{k=0}^{M} b_kx[n-k] - \sum_{k=1}^{N} a_ky[n-k]
@@ -111,7 +111,7 @@ $$
 -  ${z=e^{st}}$ : ラプラス領域は極が左平面で安定(収束)なのに対して、Z領域では 極が単位円内 で安定(収束)
 - Z変換は ${z^n}$ をLTI(線形・時不変)系の固有関数, ${H(z)}$ をその固有値とし、LTI系を対角化している  
 
-■DFE(Decision feedback equalizer):  
+■DFE（Decision feedback equalizer）:  
 
 $$
 y[n] = x[n]-\sum_{k} d_k\hat{x}[n-k]
@@ -119,17 +119,17 @@ $$
 
 ---
 
-## 電磁界解析(EM解析)
+## 電磁界解析（EM解析）
 - MoM（モーメント法）：境界条件を元に積分方程式を解く  
 ${導体表面の表面電流密度 J と電荷を未知量とし、導体表面の接線方向の電界 E_{tan}=0 を境界条件とした定常状態での解を求める}$
 ${境界条件は、入射電界+放射電界=0 ⇒ 表面電流が作る電界が入射波を打ち消す E(J)=-E_{inc}}$  
-- PEEC(Partial Element Equivalent Circuit)：等価回路で考える （準静的近似に基づく。寄生容量、寄生インダクタンスを考慮）      
-- FEM(有限要素法)   
-- FDTD(有限差分時間領域法)
+- PEEC（Partial Element Equivalent Circuit）：等価回路で考える （準静的近似に基づく。寄生容量、寄生インダクタンスを考慮）      
+- FEM（有限要素法）   
+- FDTD（有限差分時間領域法）
 
 ---
 
-## ハーモニックバランス法 (Harmonic Balance Method)
+## ハーモニックバランス法 （Harmonic Balance Method）
 
 トランジェント解析が時間領域で微分方程式を直接解くのに対して、  
 ハーモニックバランス法（HB法）は **周期定常解を仮定し、周波数領域を主として解く手法** である。
