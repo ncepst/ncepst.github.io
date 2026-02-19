@@ -43,7 +43,7 @@ ${誘電体損失: \alpha_d= \frac{1}{2}GZ_0=\frac{G}{2}\sqrt{\frac{L}{C}}∝ f\
 ${位相定数: \beta=\omega \sqrt{LC}}$  
 
 ■同軸線路の特性インピーダンス  
-${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
+${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　（内導体の半径d, 外導体の内半径D）   
 ■ストリップ線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W (0.8+\frac{t}{w} ) }\right)　(信号線の幅W, 基板厚h(上下GND間の誘電体の厚み), 信号線の厚みt) }$　     
 ■マイクロストリップ線路の特性インピーダンス  
