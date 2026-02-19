@@ -1,6 +1,6 @@
 # 高周波特性
 
-■表皮深さ(skin depth)  
+■表皮深さ（skin depth）  
 ${\delta=\sqrt{\frac{2 \rho}{\omega \mu}}}$  
 ⇒ ${\sqrt{f}}$に反比例する    
 導体抵抗は断面積(表皮深さ)に反比例するため、導体損は ${\sqrt{f}}$ に比例する。　　  
