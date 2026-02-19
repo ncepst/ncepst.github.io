@@ -75,7 +75,7 @@ $$Q_{\mathrm{m}}=\sqrt{\frac{R_{\mathrm{high}}}{R_{\mathrm{low}}} -1}$$
 
 <h2 id="q">Qの意味</h2>
 
-Q：Quality factor(品質係数) 
+Q：Quality factor（品質係数） 
 
 Qは無効電力の大きさを表す無効率で、  
 直列の場合は、 $$Q=\frac{X}{R}$$ （同一電流でRに対する電圧の比⇒インピーダンスの位相角から定義）      
@@ -96,7 +96,7 @@ Qには、
 ・外部Q : $$Q_{\mathrm{e}}$$  は、損失エネルギーP＝外部へ流れ出るエネルギーから計算される量。   
 　共振器が外の世界とどれだけ強く結合しているかを表す （共振器と負荷の「結合の強さ」）   
  
-・負荷Q : $$Q_{\mathrm{L}}$$  (共振動作のときには、 $$\frac{1}{Q_{\mathrm{L}}}=\frac{1}{Q_{\mathrm{u}}}+\frac{1}{Q_{\mathrm{e}}}$$  )  
+・負荷Q : $$Q_{\mathrm{L}}$$  （共振動作のときには、 $$\frac{1}{Q_{\mathrm{L}}}=\frac{1}{Q_{\mathrm{u}}}+\frac{1}{Q_{\mathrm{e}}}$$  ）  
 　実測から、Qを  $$Q_{\mathrm{f}}=\frac{f_{\mathrm{0}}}{BW_{\mathrm{-3dB}}}$$ で求める。  
  
 ・フィルタQ：1段の場合には負荷Qと同じ値となる。多段のフィルタ仕様で用いる。  
