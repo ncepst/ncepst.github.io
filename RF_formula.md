@@ -45,7 +45,7 @@ ${位相定数: \beta=\omega \sqrt{LC}}$
 ■同軸線路の特性インピーダンス  
 ${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{D}{d}\right)}$　(内導体の半径d, 外導体の内半径D)   
 ■ストリップ線路の特性インピーダンス  
-${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W (0.8+\frac{t}{w} ) }\right)　(信号線の幅W, 基板厚h(上下GND間の誘電体の厚み), 信号線の厚みt) }$　     
+${Z_0=\frac{60}{\sqrt{\varepsilon_r}}ln\left(\frac{4h}{0.67\pi W (0.8+\frac{t}{w} ) }\right)　（信号線の幅W, 基板厚h(上下GND間の誘電体の厚み), 信号線の厚みt) ）$　     
 ■マイクロストリップ線路の特性インピーダンス  
 ${有効比誘電率 : \varepsilon_{\text{eff}} = \frac{\varepsilon_r + 1}{2} + \frac{\varepsilon_r - 1}{2} \left(\frac{1}{\sqrt{1 + 12\frac{h}{W}}}\right)}$  
 ${Z_0 = \frac{60}{\sqrt{\varepsilon_{\text{eff}}}} \ln\left( 8\frac{h}{W} + 0.25\frac{W}{h} \right)　　(W/h≦1の場合)}$  
@@ -59,7 +59,7 @@ ${\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}}$
 ■Sパラメータ(散乱パラメータ)  
 　入射する電力波の複素振幅に対する、反射・透過する電力波の複素振幅の比  
 　 ${S_{ij}=\frac{b_i}{a_j}}$    
-　計算では、複素振幅 ${Ae^{j(\omega t-\beta z)}}$ で時間変動を無視して、(=時間依存項 ${Ae^{j\omega t}}$ を無視)  
+　計算では、複素振幅 ${Ae^{j(\omega t-\beta z)}}$ で時間変動を無視して、（=時間依存項 ${Ae^{j\omega t}}$ を無視）  
 　位置に対する振幅(包絡線)と位相で考える。  
 　入力電力、反射電力、透過電力は、Sパラメータの絶対値の2乗 ${\left|S_{ij}\right|^2}$ で計算される。  
 　複素数の加算で電力を求める場合、 ${\left| a+b \right|^2= \left|a \right|^2+\left|b \right|^2+2Re(ab^*)}$ を用いる。  
@@ -69,7 +69,7 @@ ${\mathrm{VSWR}=\frac{V_{max}+V_{min}}{V_{max}-V_{min}}}$
 ${\mathrm{VSWR}=\frac{1+|\Gamma|}{1-|\Gamma|}}$  
 ${\mathrm{VSWR}=\frac{\sqrt{P_f}+\sqrt{P_r}}{\sqrt{P_f}-\sqrt{P_r}}}$  
 VSWRは1~∞の値となり、VSWR=1.5で損失は4%  
-(スミスチャートでは、円の下側に目盛がある)   
+（スミスチャートでは、円の下側に目盛がある）   
 
 
 ■入力インピーダンス  
@@ -88,10 +88,10 @@ ${Z=\frac{|E|}{|H|}}$
 ${Z=\sqrt{\frac{\mu}{\varepsilon}}}$  
 
 ${\mu}$が上がると、磁場を作りにくくなる。磁気抵抗が大きいため。  
-( ${B=\mu H}$ なので、 ${B}$ 一定では磁場を作る能力の硬さのような指標)
+（ ${B=\mu H}$ なので、 ${B}$ 一定では磁場を作る能力の硬さのような指標）
 
 ${\varepsilon}$が上がると、電場を作りにくくなる。電気抵抗(誘電抵抗)が大きいため。  
-( ${D=\varepsilon E}$ なので、 ${D}$一定では電場を作る能力の硬さのような指標)  
+（ ${D=\varepsilon E}$ なので、 ${D}$一定では電場を作る能力の硬さのような指標）  
 
 自由空間では、  
 ${Z_0=\sqrt{\frac{\mu_0}{\varepsilon_0}}=377 \Omega　(120\pi )}$  
@@ -121,7 +121,7 @@ Gはアンテナゲイン ${G(\theta, \phi)}$
 - Si3N4 屈折率(光学領域):2.00, 比誘電率(RF領域):7～8  
 ※イオン分極・双極子分極が RF では大きく寄与するため、比誘電率が大きくなる。  
 　共有結合の強いSiでは、RFと光学で比誘電率が近い値になる。  
-- ガラスエポキシ樹脂(FR-4):比誘電率:4.0～4.5  
+- ガラスエポキシ樹脂（FR-4）:比誘電率:4.0～4.5  
 
 ■群速度  
 ${v_g=\frac{d\omega}{d\beta}}$  
@@ -138,7 +138,7 @@ ${\tau_g=-\frac{d\phi(\omega)}{d\omega}}$
 ${k=\frac{Z_{even}-Z_{odd}}{Z_{even}+Z_{odd}}}$  
 
 ${近端クロストーク:\mathrm{NEXT} \approx k}$  
-${遠端クロストーク:\mathrm{FEXT} \approx k \Delta v}$   ( ${\Delta v = v_{even}-v_{odd}}$ )  
+${遠端クロストーク:\mathrm{FEXT} \approx k \Delta v}$   （ ${\Delta v = v_{even}-v_{odd}}$ ）  
 
 ${磁気結合係数: k_L=\frac{M}{\sqrt{L_1L_2}}　(-1≦k_L≦1)}$  
 ${容量結合係数: k_C=\frac{C_{12}}{\sqrt{C_1C_2}}　(0≦k_C<1)}$  
@@ -146,7 +146,7 @@ ${容量結合係数: k_C=\frac{C_{12}}{\sqrt{C_1C_2}}　(0≦k_C<1)}$
 対称線路では、 ${C_{11}=C_{22},　L_{11}=L_{22}}$ であり、  
 ${近端クロストーク:\mathrm{NEXT}= \frac{1}{4}\left(\left|\frac{C_{12}}{C_{11}}\right|+\frac{L_{12}}{L_{11}}\right)}$  
 ${遠端クロストーク:\mathrm{FEXT}= \frac{l}{T_r}\frac{T_d}{2}\left(\left|\frac{C_{12}}{C_{11}}\right|-\frac{L_{12}}{L_{11}}\right)}$  
-　(遅延時間 ${T_d=\sqrt{L_{11}C_{11}}}$,　立ち上がり時間 ${T_r}$ ,　配線長 ${l}$ )  
+　（遅延時間 ${T_d=\sqrt{L_{11}C_{11}}}$,　立ち上がり時間 ${T_r}$ ,　配線長 ${l}$ ）  
 
 $$
 \mathbf{L} =
@@ -161,7 +161,7 @@ C_{11} & -C_{12} \\
 -C_{12} & C_{22}
 \end{pmatrix}
 \quad
-(\mathbf{L} と \mathbf{C} は対称・正則行列)
+（\mathbf{L} と \mathbf{C} は対称・正則行列）
 $$  
 
 $$
