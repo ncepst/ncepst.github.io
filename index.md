@@ -20,7 +20,7 @@ Pythonで自動化する際に汎用的に使えるモジュールです。
 - [L型マッチング回路](L_matching.md)
 - [シリアル通信](Serial_Comm.md)
 - [MOSFETの基礎](mosfet1.md)
-- [MOSFET2](mosfet2.md)
+- [増幅回路](mosfet2.md)
 - [オペアンプ回路](OPAMP1.md)
 - [スイッチング電源1](switching1.md)
 - [スイッチング電源2](switching2.md)
