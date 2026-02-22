@@ -26,6 +26,7 @@ Pythonで自動化する際に汎用的に使えるモジュールです。
 - [スイッチング電源2](switching2.md)
 - [受動部品](passive_component.md)
 - [トランス](transformer.md)
+- [スナバ回路](sunub.md)
 
   
 ## 経歴
