@@ -76,9 +76,15 @@ Irefを作ったら、電流ミラーで各ブロックへ配ります。ここ�
 
 $$ I_0 = I_s exp(\frac{qV_X}{kT})$$
 
-$$ I_0 = nI_s exp(\frac{qV_Y}{kT})$$
+$$ I_0 = NI_s exp(\frac{qV_Y}{kT})$$
 
 $$ I_0 = \frac{V_X-V_Y}{R} $$
+
+を解いて、
+
+$$ I_0 = \frac{kT}{qR}log(N) $$
+
+（Razavi 応用編）
 
 ### 3.1 コア原理：CTAT + PTAT = ほぼ温度フラット
 BJT（寄生PNPなどを含む）を使う典型BGRでは：
