@@ -98,6 +98,9 @@ $$ \frac{\partial I_{DS}}{\partial V_{DS}}= \lambda I_{D} $$
 $$ r_o=\frac{1}{\lambda I_{D}} $$ 
 
 電流を増やすと出力抵抗が下がる。そのため極は高周波側に移動する。  
+また、ゲインは電流が増えるほど下がる。  
+
+$$g_m r_o \propto \frac{1}{\sqrt{I}}$$
 
 小信号の電圧利得は、負荷のドレイン抵抗 ${R_D}$ に依存し、  
 ${g_m}がV_{GS}に依存して変わるが、v_{gs}(t)=V_{GS}+v_{gs}の入力に対する出力電流I_D+i_d で、i_d=g_m v_{gs}$ と考えて、
