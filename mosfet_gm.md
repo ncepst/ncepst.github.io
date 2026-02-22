@@ -38,7 +38,7 @@ g_m \equiv \frac{\partial I_D}{\partial V_{GS}}
 ドレイン電流は近似的に
 
 \[
-I_D = I_0 \exp\!\left(\frac{V_{GS}-V_{TH}}{nV_T}\right)
+I_D = I_0 \exp\left(\frac{V_{GS}-V_{TH}}{nV_T}\right)
 \]
 
 と書ける。
