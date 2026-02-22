@@ -75,8 +75,8 @@ Irefを作ったら、電流ミラーで各ブロックへ配ります。ここ�
 ### 3.1 コア原理：CTAT + PTAT = ほぼ温度フラット
 BJT（寄生PNPなどを含む）を使う典型BGRでは：
 
-- **V\_BE(T)**：温度が上がると下がる（CTAT, negative TC）
-- **ΔV\_BE(T)**：異なる電流密度のBJTのV\_BE差  
+- **V\_BE（T）**：温度が上がると下がる（CTAT, negative TC）
+- **ΔV\_BE（T）**：異なる電流密度のBJTのV\_BE差  
   \[
   \Delta V_{BE} = \frac{kT}{q}\ln(N)
   \]
