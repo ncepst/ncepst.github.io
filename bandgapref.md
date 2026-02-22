@@ -84,7 +84,7 @@ $$ I_0 = \frac{V_X-V_Y}{R} $$
 
 $$ I_0 = \frac{kT}{qR}log(N) $$
 
-（Razavi 応用編）
+（参考: Razavi 応用編）
 
 ### 3.1 コア原理：CTAT + PTAT = ほぼ温度フラット
 BJT（寄生PNPなどを含む）を使う典型BGRでは：
