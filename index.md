@@ -44,4 +44,4 @@ Pythonで自動化する際に汎用的に使えるモジュールです。
 
 ## お問い合わせ
 ご連絡は下記メールにお願いします。  
-E-mail: ncepst708 [at] gmail.com
+E-mail: ncepst708 at gmail.com
