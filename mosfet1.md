@@ -102,6 +102,8 @@ $$ r_o=\frac{1}{\lambda I_{D}} $$
 
 $$g_m r_o \propto \frac{1}{\sqrt{I}}$$
 
+[MOSFETのgmのID依存性](mosfet_gm.md)
+
 小信号の電圧利得は、負荷のドレイン抵抗 ${R_D}$ に依存し、  
 ${g_m}がV_{GS}に依存して変わるが、v_{gs}(t)=V_{GS}+v_{gs}の入力に対する出力電流I_D+i_d で、i_d=g_m v_{gs}$ と考えて、
 
