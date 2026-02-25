@@ -2,7 +2,7 @@ $$ g_m=\sqrt{2\beta I_D} $$
 
 差動増幅回路
 
-$$ g_md=\sqrt{\beta I_{SS}} $$
+$$ g_{md}=\sqrt{\beta I_{SS}} $$
 
 ダイオードの電圧
 
