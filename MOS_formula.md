@@ -11,7 +11,7 @@ $$ V_d=\frac{k_BT}{e}ln{I/I_S} $$
 バンドギャップリファレンス（定電圧回路）
 
 $$ V_{out}= V_{d3} + \Delta V_d \frac{R_2}{R_1} $$
-$$ V_{out}= V_{d3} + \frac{k_BT}{e}ln{K} \frac{R_2}{R_1} $$
+$$ V_{out}= V_{d3} + \frac{k_BT}{e}ln{K} \cdot \frac{R_2}{R_1} $$
 
 バンドギャップリファレンス（定電流回路）
 
