@@ -18,6 +18,7 @@
 - [受動部品](passive_component.md)
 - [スナバ回路](sunub.md)
 - [トランス](transformer.md)
+- [数式メモ](MOS_formula.md)
 
 ## リポジトリ紹介
 
