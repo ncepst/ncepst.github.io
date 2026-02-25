@@ -186,6 +186,20 @@ ${\mathrm{Vout}=A_{\mathrm{diff}}(V_+-V_-)+A_{\mathrm{CM}}\frac{V_++V_-}{2}}$
 ${\mathrm{CMRR}(同相除去比)=\frac{A_{\mathrm{diff}}}{A_{\mathrm{CM}}}}$  
 ${\mathrm{PSRR}(電源変動除去比)=\frac{\Delta V_{CC}}{\Delta V_{out}}}$
 
+■SパラメータのIVZの関係式  
+電磁波の散乱係数であるSパラメータとキャリア輸送方程式を小信号線形化した式に関係式があります。  
+I, V ⇒ ${g_m}$ ⇒ Y ⇒ Sパラメータ   
+
+$$a = \frac{V_k + Z_0 I_k}{2 \sqrt{Z_0}}$$
+
+$$b = \frac{V_k - Z_0 I_k}{2 \sqrt{Z_0}}$$
+
+$$S = (I+Z_0Y)^{-1}(I-Z_0Y) $$
+
+KVL, KCLではGNDという基準がベースになる記述であるにに対し、  
+Sパラメータでは基準インピーダンスがベースとなる記述となる。  
+
+
 [高周波特性2](RF_formula2.md)  
 
 [ホームに戻る](index.md)  
