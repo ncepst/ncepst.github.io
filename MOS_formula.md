@@ -6,7 +6,7 @@ $$ g_md=\sqrt{\beta I_{SS}} $$
 
 ダイオードの電圧
 
-$$ V_d=\frac{k_BT}{e}ln{I/I_S} $$
+$$ V_d=\frac{k_BT}{e}ln{\frac{I}{I_S}} $$
 
 バンドギャップリファレンス（定電圧回路）
 
