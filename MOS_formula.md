@@ -20,4 +20,4 @@ $$ I_{out}= \frac{V_{d3}}{R_2} +  \frac{\Delta V_d}{R_1} $$
 
 MOSの飽和条件
 
-$$ V_{gs}-V_{th} >= V_{DS} $$
+$$ V_{gs}-V_{th} <= V_{DS} $$
