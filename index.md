@@ -19,7 +19,7 @@
 - [スナバ回路](sunub.md)
 - [トランス](transformer.md)
 - [バイポーラトランジスタ](bipolar.md)
-- [数式メモ](MOS_formula.md)
+- [数式メモ（MOS）](MOS_formula.md)
 
 ## リポジトリ紹介
 
