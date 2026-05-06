@@ -11,15 +11,17 @@
 - [シリアル通信](Serial_Comm.md)
 - [MOSFETの基礎](mosfet1.md)
 - [オペアンプ回路](OPAMP1.md)
+- [トランス](transformer.md)
+- [数式メモ（MOS）](MOS_formula.md)
+
+## AI生成記事
 - [増幅回路](mosfet2.md)
 - [バンドギャップリファレンス回路](bandgapref.md)
 - [スイッチング電源1](switching1.md)
 - [スイッチング電源2](switching2.md)
 - [受動部品](passive_component.md)
 - [スナバ回路](sunub.md)
-- [トランス](transformer.md)
 - [バイポーラトランジスタ](bipolar.md)
-- [数式メモ（MOS）](MOS_formula.md)
 
 ## リポジトリ紹介
 
