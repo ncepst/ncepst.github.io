@@ -4,7 +4,7 @@
 - GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
 - Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)  
 
-## 記事
+## まとめ記事
 - [高周波特性1](RF_formula.md)
 - [高周波特性2](RF_formula2.md)  
 - [L型マッチング回路](L_matching.md)
