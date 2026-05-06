@@ -1,4 +1,4 @@
-## ncepst(N.Abe)ページ
+## ncepst (N.Abe) のページ
 ### リンク
 
 - GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
