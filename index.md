@@ -25,7 +25,7 @@ Pythonで自動化する際に汎用的に使えるモジュールです。
 - [トランス](transformer.md)
 - [数式メモ（MOS）](MOS_formula.md)
 
-※一部AIで生成しています。
+※一部内容はAIで生成しています。
 
 ## AI生成記事
 - [増幅回路](mosfet2.md)
