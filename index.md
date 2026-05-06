@@ -4,7 +4,18 @@
 - GitHub : [https://github.com/ncepst](https://github.com/ncepst)  
 - Qiita  : [https://qiita.com/ncepst](https://qiita.com/ncepst)  
 
+## リポジトリ紹介
+
+### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
+
+Pythonで、エクセルグラフの書式設定を指定してグラフ作成するモジュールです。  
+
+分析データをエクセルへ出力した後、体裁調整したエクセルグラフ出力までを、    
+Pythonで自動化する際に汎用的に使えるモジュールです。  
+任意引数が多いですが、同じグラフを繰り返し作成する際には便利です。
+
 ## まとめ記事
+※一部はAI生成
 - [高周波特性1](RF_formula.md)
 - [高周波特性2](RF_formula2.md)  
 - [L型マッチング回路](L_matching.md)
@@ -22,16 +33,6 @@
 - [受動部品](passive_component.md)
 - [スナバ回路](sunub.md)
 - [バイポーラトランジスタ](bipolar.md)
-
-## リポジトリ紹介
-
-### [PyExcelTools](https://github.com/ncepst/PyExcelTools)
-
-Pythonで、エクセルグラフの書式設定を指定してグラフ作成するモジュールです。  
-
-分析データをエクセルへ出力した後、体裁調整したエクセルグラフ出力までを、    
-Pythonで自動化する際に汎用的に使えるモジュールです。  
-任意引数が多いですが、同じグラフを繰り返し作成する際には便利です。
   
 ## 経歴
 ～2022年： 修士 （電子工学・スピントロニクス）  
