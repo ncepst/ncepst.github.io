@@ -33,6 +33,7 @@ Pythonで自動化する際に汎用的に使えるモジュールです。
 ※ほぼ全てAIで生成した内容です。
 
 - [増幅回路](mosfet2.md)
+- [CMRR PSRR](CMRR_PSRR.md)
 - [バンドギャップリファレンス回路](bandgapref.md)
 - [スイッチング電源1](switching1.md)
 - [スイッチング電源2](switching2.md)
