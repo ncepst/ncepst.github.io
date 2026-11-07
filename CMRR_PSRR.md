@@ -1,8 +1,3 @@
----
-layout: default
-title: "CMOSオペアンプ設計入門：CMRR・PSRR・カスコード化"
----
-
 # CMOSオペアンプ設計入門：CMRR・PSRR・カスコード化
 
 アナログIC設計を学び始めると、必ず登場するのが **CMRR・PSRR・カスコード化**です。
