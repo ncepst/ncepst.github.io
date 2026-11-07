@@ -1,21 +1,3 @@
----
-layout: post
-title: "CMOSオペアンプ設計入門：CMRR・PSRR・カスコード化"
-date: 2026-11-07 13:00:00 +0900
-categories: [アナログIC設計]
-tags: [CMOS, OPAMP, CMRR, PSRR, カスコード, 差動対]
-description: "差動対の小信号解析からCMRRの近似式を導出し、カスコード化、PSRR、全差動オペアンプとの関係を整理します。"
-math: true
----
-
-<!-- 数式表示：テーマ側でMathJaxを読み込んでいる場合、以下の2つのscriptは削除してください。 -->
-<script>
-window.MathJax = {
-  tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }
-};
-</script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-
 アナログIC設計を学び始めると、必ず登場するのが **CMRR・PSRR・カスコード化**です。
 
 本記事では、抵抗負荷のMOS差動対を出発点に、なぜ $\mathrm{CMRR}\approx g_m r_{o,\mathrm{tail}}$ という式が現れるのかを導出します。さらに、能動負荷や全差動オペアンプへの適用範囲、カスコード化の効果と制約を整理します。
