@@ -1,3 +1,10 @@
+---
+layout: default
+title: "CMOSオペアンプ設計入門：CMRR・PSRR・カスコード化"
+---
+
+# CMOSオペアンプ設計入門：CMRR・PSRR・カスコード化
+
 アナログIC設計を学び始めると、必ず登場するのが **CMRR・PSRR・カスコード化**です。
 
 本記事では、抵抗負荷のMOS差動対を出発点に、なぜ $\mathrm{CMRR}\approx g_m r_{o,\mathrm{tail}}$ という式が現れるのかを導出します。さらに、能動負荷や全差動オペアンプへの適用範囲、カスコード化の効果と制約を整理します。
@@ -9,13 +16,9 @@
 
 CMRR（Common-Mode Rejection Ratio：同相信号除去比）は、**差動入力に対する利得と、同相入力に対する利得の比**です。
 
-$$
-\mathrm{CMRR}=\left|\frac{A_d}{A_{cm}}\right|
-$$
+$$ \mathrm{CMRR}=\left|\frac{A_d}{A_{cm}}\right| $$
 
-$$
-\mathrm{CMRR}_{\mathrm{dB}}=20\log_{10}\left|\frac{A_d}{A_{cm}}\right|
-$$
+$$ \mathrm{CMRR}_{\mathrm{dB}}=20\log_{10}\left|\frac{A_d}{A_{cm}}\right| $$
 
 ここで、$A_d$ は差動利得、$A_{cm}$ は同相利得です。両者は、同じ出力の定義を用いて比較します。
 
@@ -25,28 +28,19 @@ CMRRが大きいほど、両入力に共通して加わる干渉を出力に現�
 
 一般に、入力信号は次の2成分に分解できます。
 
-$$
-v_{id}=v_{in+}-v_{in-}
-$$
+$$ v_{id}=v_{in+}-v_{in-} $$
 
-$$
-v_{icm}=\frac{v_{in+}+v_{in-}}{2}
-$$
+$$ v_{icm}=\frac{v_{in+}+v_{in-}}{2} $$
 
 逆に書くと、
 
-$$
-v_{in+}=v_{icm}+\frac{v_{id}}{2},\qquad
-v_{in-}=v_{icm}-\frac{v_{id}}{2}
-$$
+$$ v_{in+}=v_{icm}+\frac{v_{id}}{2},\qquad v_{in-}=v_{icm}-\frac{v_{id}}{2} $$
 
 です。
 
 例えば、両入力がともに
 
-$$
-v_{in+}=v_{in-}=1.2\,\mathrm{V}+1\,\mathrm{mV}\sin\omega t
-$$
+$$ v_{in+}=v_{in-}=1.2\,\mathrm{V}+1\,\mathrm{mV}\sin\omega t $$
 
 なら、差動入力はゼロです。$1.2\,\mathrm{V}$ は直流の入力同相電圧、$1\,\mathrm{mV}\sin\omega t$ は微小な同相交流信号に相当します。
 
@@ -73,9 +67,7 @@ NMOS入力差動対と、等しい抵抗負荷を考えます。
 
 理想的なテイル電流源と、上記の簡略モデルでは、微小変化について
 
-$$
-v_s=v_{icm}
-$$
+$$ v_s=v_{icm} $$
 
 となり、各MOSの $v_{gs}$ は変化しません。したがって、ドレイン電流も出力電圧も変化しません。
 
@@ -85,9 +77,7 @@ $$
 
 実際のMOS電流源では、ドレイン電圧によって電流がわずかに変化します。チャネル長変調の簡略モデルは、
 
-$$
-I_D\approx I_0(1+\lambda V_{DS})
-$$
+$$ I_D\approx I_0(1+\lambda V_{DS}) $$
 
 です。
 
@@ -97,21 +87,15 @@ $$
 
 各入力MOSの小信号ドレイン電流は、
 
-$$
-i_d=g_m(v_{icm}-v_s)
-$$
+$$ i_d=g_m(v_{icm}-v_s) $$
 
 です。左右の電流を足し合わせると、共通ソースノードのKCLは
 
-$$
-2g_m(v_{icm}-v_s)=\frac{v_s}{r_t}
-$$
+$$ 2g_m(v_{icm}-v_s)=\frac{v_s}{r_t} $$
 
 となります。これを整理すると、
 
-$$
-\boxed{v_s=\frac{2g_mr_t}{1+2g_mr_t}v_{icm}}
-$$
+$$ \boxed{v_s=\frac{2g_mr_t}{1+2g_mr_t}v_{icm}} $$
 
 です。$2g_mr_t\gg1$ なら、$v_s\approx v_{icm}$ となります。
 
@@ -119,16 +103,11 @@ $$
 
 ゲート・ソース間の小信号電圧は、
 
-$$
-v_{gs}=v_{icm}-v_s=\frac{v_{icm}}{1+2g_mr_t}
-$$
+$$ v_{gs}=v_{icm}-v_s=\frac{v_{icm}}{1+2g_mr_t} $$
 
 です。したがって、各枝の電流変化は
 
-$$
-i_d=\frac{g_m}{1+2g_mr_t}v_{icm}
-\approx\frac{v_{icm}}{2r_t}
-$$
+$$ i_d=\frac{g_m}{1+2g_mr_t}v_{icm} \approx\frac{v_{icm}}{2r_t} $$
 
 となります。
 
@@ -136,15 +115,11 @@ $$
 
 片側出力の電圧変化は $v_o=-i_dR_D$ なので、
 
-$$
-\boxed{A_{cm}=\frac{v_o}{v_{icm}}=-\frac{g_mR_D}{1+2g_mr_t}}
-$$
+$$ \boxed{A_{cm}=\frac{v_o}{v_{icm}}=-\frac{g_mR_D}{1+2g_mr_t}} $$
 
 です。$2g_mr_t\gg1$ なら、
 
-$$
-\boxed{A_{cm}\approx-\frac{R_D}{2r_t}}
-$$
+$$ \boxed{A_{cm}\approx-\frac{R_D}{2r_t}} $$
 
 となります。
 
@@ -154,25 +129,17 @@ $$
 
 対称な回路では、左右の電流変化が打ち消し合うため、共通ソースノードは差動信号に対して交流接地になります。$M_1$ 側の片側出力を観測すると、
 
-$$
-\boxed{A_d=\frac{v_o}{v_{id}}=-\frac{g_mR_D}{2}}
-$$
+$$ \boxed{A_d=\frac{v_o}{v_{id}}=-\frac{g_mR_D}{2}} $$
 
 です。
 
 これを同相利得と比較すると、
 
-$$
-\mathrm{CMRR}
-=\frac{g_mR_D/2}{g_mR_D/(1+2g_mr_t)}
-=\frac{1+2g_mr_t}{2}
-$$
+$$ \mathrm{CMRR} =\frac{g_mR_D/2}{g_mR_D/(1+2g_mr_t)} =\frac{1+2g_mr_t}{2} $$
 
 したがって、この簡略モデルでは
 
-$$
-\boxed{\mathrm{CMRR}=\frac{1}{2}+g_mr_t\approx g_mr_t}
-$$
+$$ \boxed{\mathrm{CMRR}=\frac{1}{2}+g_mr_t\approx g_mr_t} $$
 
 が得られます。
 
@@ -180,10 +147,7 @@ $$
 
 例えば、$g_m=1\,\mathrm{mS}$、$r_t=1\,\mathrm{M\Omega}$ なら、
 
-$$
-\mathrm{CMRR}\approx1000,\qquad
-\mathrm{CMRR}_{\mathrm{dB}}\approx60\,\mathrm{dB}
-$$
+$$ \mathrm{CMRR}\approx1000,\qquad \mathrm{CMRR}_{\mathrm{dB}}\approx60\,\mathrm{dB} $$
 
 です。
 
@@ -199,9 +163,7 @@ $$
 
 完全に対称な抵抗負荷差動対では、同相入力による両出力の変化は等しくなります。そのため、差動出力ではこの変化が相殺されます。
 
-$$
-\left.\frac{v_{od}}{v_{icm}}\right|_{\text{完全対称}}=0
-$$
+$$ \left.\frac{v_{od}}{v_{icm}}\right|_{\text{完全対称}}=0 $$
 
 したがって、この理想モデルで**差動出力に対して定義したCMRRは無限大**です。有限のテイル出力抵抗は出力同相電圧を動かしますが、それだけでは左右の差を生みません。
 
@@ -237,23 +199,17 @@ PSRR（Power-Supply Rejection Ratio：電源変動除去比）は、電源変動
 
 電源から出力への利得を
 
-$$
-A_s=\frac{\Delta v_o}{\Delta v_s}
-$$
+$$ A_s=\frac{\Delta v_o}{\Delta v_s} $$
 
 と定義すると、入力換算のPSRRは一般に
 
-$$
-\boxed{\mathrm{PSRR}=\left|\frac{A_d}{A_s}\right|}
-$$
+$$ \boxed{\mathrm{PSRR}=\left|\frac{A_d}{A_s}\right|} $$
 
 と表せます。電源変動が生む出力誤差を $A_d$ で割って入力換算し、電源変動と比較したものです。
 
 一方、
 
-$$
-\left|\frac{\Delta v_s}{\Delta v_o}\right|=\frac{1}{|A_s|}
-$$
+$$ \left|\frac{\Delta v_s}{\Delta v_o}\right|=\frac{1}{|A_s|} $$
 
 は、指定した測定条件における電源から出力への伝達の逆数です。入力換算のPSRRと区別して扱います。
 
@@ -287,9 +243,7 @@ NMOS電流シンクなら、接続順は次のとおりです。
 
 単一MOSの出力抵抗は、おおよそ
 
-$$
-r_o\approx\frac{1}{\lambda I_D}
-$$
+$$ r_o\approx\frac{1}{\lambda I_D} $$
 
 です。
 
@@ -297,21 +251,15 @@ $$
 
 ゲートバイアスを交流的に固定し、ボディ効果を無視すると、
 
-$$
-R_{out}=r_{o1}+r_{o,cas}+g_{m,cas}r_{o1}r_{o,cas}
-$$
+$$ R_{out}=r_{o1}+r_{o,cas}+g_{m,cas}r_{o1}r_{o,cas} $$
 
 です。積の項が支配的なら、
 
-$$
-\boxed{R_{out}\approx g_{m,cas}r_{o1}r_{o,cas}}
-$$
+$$ \boxed{R_{out}\approx g_{m,cas}r_{o1}r_{o,cas}} $$
 
 さらに両MOSの出力抵抗を同程度の $r_o$ とすれば、
 
-$$
-\boxed{R_{out}\approx g_{m,cas}r_o^2}
-$$
+$$ \boxed{R_{out}\approx g_{m,cas}r_o^2} $$
 
 となります。ここでの $g_{m,cas}$ は、**カスコードMOSのトランスコンダクタンス**です。
 
@@ -321,9 +269,7 @@ $$
 
 増幅段の利得は、実効トランスコンダクタンスを $G_m$ として
 
-$$
-|A_v|\approx G_mR_{out}
-$$
+$$ |A_v|\approx G_mR_{out} $$
 
 と表せます。カスコード化によって段全体の出力抵抗を増やせれば、DC利得を高められます。
 
@@ -333,9 +279,7 @@ $$
 
 抵抗負荷・片側出力のモデルでは、
 
-$$
-\mathrm{CMRR}\approx g_mr_t
-$$
+$$ \mathrm{CMRR}\approx g_mr_t $$
 
 なので、テイル電流源のカスコード化はCMRR改善に有効です。
 
@@ -371,23 +315,17 @@ $$
 
 カスコードMOSのゲートを交流接地し、ドレイン側の終端条件などについて適切な近似ができる場合、ソース側を見込む抵抗は、おおよそ
 
-$$
-R_x\approx\frac{1}{g_{m,cas}}
-$$
+$$ R_x\approx\frac{1}{g_{m,cas}} $$
 
 です。ボディ効果を含めると、$1/(g_{m,cas}+g_{mb,cas})$ が目安になる場合があります。
 
 例えば、
 
-$$
-g_{m,cas}=10\,\mathrm{mS}
-$$
+$$ g_{m,cas}=10\,\mathrm{mS} $$
 
 なら、
 
-$$
-R_x\approx100\,\Omega
-$$
+$$ R_x\approx100\,\Omega $$
 
 です。ただし、この抵抗値は接続先や周波数に依存します。どのような終端条件でも常に $1/g_m$ になるわけではありません。
 
@@ -399,10 +337,7 @@ $$
 
 出力ノードと内部ノードの結合を弱いものとして近似できれば、それぞれの極の目安は
 
-$$
-f_o\approx\frac{1}{2\pi R_{out}C_{out}},\qquad
-f_x\approx\frac{1}{2\pi R_xC_x}
-$$
+$$ f_o\approx\frac{1}{2\pi R_{out}C_{out}},\qquad f_x\approx\frac{1}{2\pi R_xC_x} $$
 
 です。厳密な極は、結合した小信号回路の伝達関数から求めます。
 
@@ -412,16 +347,11 @@ $R_x$ が小さいため、カスコード内部ノードの極は高周波側�
 
 例えば、
 
-$$
-R_x=100\,\Omega,\qquad C_x=100\,\mathrm{fF}
-$$
+$$ R_x=100\,\Omega,\qquad C_x=100\,\mathrm{fF} $$
 
 なら、単純なRC近似では
 
-$$
-f_x\approx\frac{1}{2\pi\times100\times100\times10^{-15}}
-\approx15.9\,\mathrm{GHz}
-$$
+$$ f_x\approx\frac{1}{2\pi\times100\times100\times10^{-15}} \approx15.9\,\mathrm{GHz} $$
 
 です。
 
@@ -438,9 +368,7 @@ $$
 
 CMFBは、
 
-$$
-v_{ocm}=\frac{v_{o+}+v_{o-}}{2}
-$$
+$$ v_{ocm}=\frac{v_{o+}+v_{o-}}{2} $$
 
 を検出し、目標の出力同相電圧へ近づけます。
 
