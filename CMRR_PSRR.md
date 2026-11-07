@@ -390,12 +390,12 @@ CMRRが低い場合は、まず出力の定義と、同相入力が出力誤差�
 
 | 式 | 意味・主な成立条件 |
 | --- | --- |
-| $\displaystyle |A_d|=g_mR_D/2$ | 整合した抵抗負荷差動対の片側出力。入力MOSの $r_o$ とボディ効果を無視 |
-| $\displaystyle |A_{cm}|\approx R_D/(2r_t)$ | 同じモデルで $2g_mr_t\gg1$ |
-| $\displaystyle \mathrm{CMRR}\approx g_mr_t$ | 上記の片側出力に対する比。$g_m$ は入力MOSの値 |
-| $\displaystyle |A_v|\approx G_mR_{out}$ | 単一増幅段の低周波利得の目安 |
-| $\displaystyle R_{out,cas}\approx g_{m,cas}r_o^2$ | 両MOSの $r_o$ が同程度で、積の項が支配的。ゲートバイアスを交流的に固定しボディ効果を無視 |
-| $\displaystyle \mathrm{PSRR}=|A_d/A_s|$ | 入力換算の電源変動除去比。$A_s$ は電源から出力への利得 |
+| $\vert A_d\vert =g_mR_D/2$ | 整合した抵抗負荷差動対の片側出力。入力MOSの $r_o$ とボディ効果を無視 |
+| $\vert A_{cm}\vert \approx R_D/(2r_t)$ | 同じモデルで $2g_mr_t\gg1$ |
+| $\mathrm{CMRR}\approx g_mr_t$ | 上記の片側出力に対する比。$g_m$ は入力MOSの値 |
+| $\vert A_v\vert \approx G_mR_{out}$ | 単一増幅段の低周波利得の目安 |
+| $R_{out,cas}\approx g_{m,cas}r_o^2$ | 両MOSの $r_o$ が同程度で、積の項が支配的。ゲートバイアスを交流的に固定しボディ効果を無視 |
+| $\mathrm{PSRR}=\vert A_d/A_s\vert $ | 入力換算の電源変動除去比。$A_s$ は電源から出力への利得 |
 
 これらの式は、回路の動作を見積もる出発点です。**どの入力を与え、どの出力を観測し、何を無視した式なのか**を合わせて押さえると、実際のオペアンプへ応用しやすくなります。
 
