@@ -15,6 +15,9 @@ Pythonで、エクセルグラフの書式設定を指定してグラフ作成�
 Pythonで自動化する際に汎用的に使えるモジュールです。  
 任意引数が多いですが、同じグラフを繰り返し作成する際には便利です。
 
+ライブラリとしてPyPIにも公開しました。
+[https://pypi.org/project/ncepst-pyexceltools/](https://pypi.org/project/ncepst-pyexceltools/)
+
 ---
 ## まとめ記事
 ※一部内容はAIで生成しています。
@@ -39,9 +42,6 @@ Pythonで自動化する際に汎用的に使えるモジュールです。
 - [受動部品](passive_component.md)
 - [スナバ回路](sunub.md)
 - [バイポーラトランジスタ](bipolar.md)
-
----
-## 自己紹介
 
 ---
 ## お問い合わせ
