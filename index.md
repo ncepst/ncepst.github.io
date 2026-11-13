@@ -15,7 +15,8 @@ Pythonで、エクセルグラフの書式設定を指定してグラフ作成�
 Pythonで自動化する際に汎用的に使えるモジュールです。  
 任意引数が多いですが、同じグラフを繰り返し作成する際には便利です。
 
-ライブラリとしてPyPIにも公開しました。
+ライブラリとしてPyPIにも公開しました。  
+pip install ncepst-pyexceltools でインストールできます。  
 [https://pypi.org/project/ncepst-pyexceltools/](https://pypi.org/project/ncepst-pyexceltools/)
 
 ---
