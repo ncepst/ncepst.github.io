@@ -17,7 +17,7 @@ Pythonで自動化する際に汎用的に使えるモジュールです。
 
 ライブラリとしてPyPIにも公開しました。  
 pip install ncepst-exceltools でインストールできます。  
-[https://pypi.org/project/ncepst-pyexceltools/](https://pypi.org/project/ncepst-exceltools/)
+[https://pypi.org/project/ncepst-exceltools/](https://pypi.org/project/ncepst-exceltools/)
 
 ---
 ## まとめ記事
