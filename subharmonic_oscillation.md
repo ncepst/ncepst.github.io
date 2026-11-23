@@ -229,6 +229,6 @@ LEBはON直後の検出スパイクを無視する時間です。指令到達点
 
 ## 参考資料
 
-- [1] Robert Sheehan, Texas Instruments, [Understanding and Applying Current-Mode Control Theory（SNVA555）](https://www.ti.com/lit/an/snva555/snva555.pdf)
-- [2] ROHM Tech Web, [The Reason Why Compensation Ramp Slope Must Be At Least 1/2 Down Slope](https://techweb.rohm.com/product/opamps-arithmetic-circuits/transfer-function/3790/)
-- [3] Unitrode / Texas Instruments, [Modeling, Analysis and Compensation of the Current-Mode Converter（U-97）](https://www.ti.com/lit/an/slua101/slua101.pdf)
+ [1] Robert Sheehan, Texas Instruments, [Understanding and Applying Current-Mode Control Theory（SNVA555）](https://www.ti.com/lit/an/snva555/snva555.pdf)  
+ [2] ROHM Tech Web, [The Reason Why Compensation Ramp Slope Must Be At Least 1/2 Down Slope](https://techweb.rohm.com/product/opamps-arithmetic-circuits/transfer-function/3790/)  
+ [3] Unitrode / Texas Instruments, [Modeling, Analysis and Compensation of the Current-Mode Converter（U-97）](https://www.ti.com/lit/an/slua101/slua101.pdf)  
